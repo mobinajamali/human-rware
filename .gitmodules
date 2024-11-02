@@ -1,0 +1,3 @@
+[submodule "robotic-warehouse"]
+	path = robotic-warehouse
+	url = git@github.com:semitable/robotic-warehouse.git
