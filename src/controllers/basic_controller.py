@@ -1,7 +1,10 @@
-from src.modules.agents import REGISTRY as agent_REGISTRY
-from src.modules.agents.rnn_agent import RNNAgent
+from modules.agents import REGISTRY as agent_REGISTRY
+from modules.agents.rnn_agent import RNNAgent
 from components.action_selectors import REGISTRY as action_REGISTRY
 import torch as th
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../robotic-warehouse')))
 from human_play import InteractiveRWAREEnv
 from argparse import ArgumentParser
 
@@ -28,7 +31,7 @@ class TrainedAgent:
 
 # This multi-agent controller shares parameters between agents
 class BasicMAC:
-    def __init__(self, scheme, groups, args, help_flag=False, trained_agent_path=None):
+    def __init__(self, scheme, groups, args, help_flag=True, trained_agent_path=None):
         self.n_agents = args.n_agents
         self.args = args
         self.help_flag = help_flag
