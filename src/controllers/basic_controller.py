@@ -1,27 +1,67 @@
-from modules.agents import REGISTRY as agent_REGISTRY
+from src.modules.agents import REGISTRY as agent_REGISTRY
+from src.modules.agents.rnn_agent import RNNAgent
 from components.action_selectors import REGISTRY as action_REGISTRY
 import torch as th
+from human_play import InteractiveRWAREEnv
+from argparse import ArgumentParser
+
+
+class TrainedAgent:
+    def __init__(self, path):
+        self.path = path
+        self.model = None
+    
+    def load_agent(self):
+        if self.model is None: 
+            self.model = RNNAgent(17, True)
+            state_dict = th.load(self.path)
+            self.model.load_state_dict(state_dict)
+        return self.model
+
+    def get_action(self, agent_inputs):
+        with th.no_grad():
+            agent_inputs_tensor = th.tensor(agent_inputs, dtype=th.float32)
+            outputs = self.model(agent_inputs_tensor)
+        return outputs
+
 
 
 # This multi-agent controller shares parameters between agents
 class BasicMAC:
-    def __init__(self, scheme, groups, args):
+    def __init__(self, scheme, groups, args, help_flag=False, trained_agent_path=None):
         self.n_agents = args.n_agents
         self.args = args
+        self.help_flag = help_flag
+        #self.k_steps = args.k_steps  
+        self.k_steps = 10
+        self.step_counter = 0  
+
         input_shape = self._get_input_shape(scheme)
         self._build_agents(input_shape)
         self.agent_output_type = args.agent_output_type
-
         self.action_selector = action_REGISTRY[args.action_selector](args)
-
         self.hidden_states = None
 
-    def select_actions(self, ep_batch, t_ep, t_env, bs=slice(None), test_mode=False):
-        # Only select actions for the selected batch elements in bs
-        avail_actions = ep_batch["avail_actions"][:, t_ep]
-        agent_outputs = self.forward(ep_batch, t_ep, test_mode=test_mode)
-        chosen_actions = self.action_selector.select_action(agent_outputs[bs], avail_actions[bs], t_env, test_mode=test_mode)
-        return chosen_actions
+        self.interactive_env = InteractiveRWAREEnv(env=args.env, 
+                                                   max_steps=args.max_steps, 
+                                                   display_info=args.display_info)
+
+        # load the policies
+        if self.help_flag and trained_agent_path is not None:
+            self.trained_agent = TrainedAgent(trained_agent_path).load_agent()
+
+
+    def select_actions(self, ep_batch, t_ep, t_env, test_mode=False):
+        if self.help_flag and self.step_counter % self.k_steps == 0:  # human input step
+            obss, actions = self.interactive_env.get_current_human_action()
+            actions = [act.value for act in actions]
+        else:  # agent policy step
+            avail_actions = ep_batch["avail_actions"][:, t_ep]
+            agent_outputs = self.forward(ep_batch, t_ep, test_mode=test_mode)
+            actions = self.action_selector.select_action(agent_outputs, avail_actions, t_env, test_mode=test_mode)
+
+        self.step_counter += 1 
+        return actions
 
     def forward(self, ep_batch, t, test_mode=False):
         agent_inputs = self._build_inputs(ep_batch, t)

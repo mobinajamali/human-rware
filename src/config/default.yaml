@@ -3,12 +3,12 @@
 # --- pymarl options ---
 runner: "episode" # Runs 1 env for an episode
 mac: "basic_mac" # Basic controller
-env: "sc2" # Environment name
+env: "rware" # Environment name
 common_reward: True  # Run experiment with common reward setup
 reward_scalarisation: "sum"  # How to aggregate rewards to single common reward (only used if common_reward is True)
 env_args: {} # Arguments for the environment
 batch_size_run: 1 # Number of environments to run in parallel
-test_nepisode: 20 # Number of episodes to test for
+test_nepisode: 15 # Number of episodes to test for
 test_interval: 2000 # Test after {} timesteps have passed
 test_greedy: True # Use greedy evaluation (if False, will set epsilon floor to 0
 log_interval: 2000 # Log summary of stats after every {} timesteps
@@ -20,13 +20,13 @@ buffer_cpu_only: True # If true we won't keep all of the replay buffer in vram
 
 # --- Logging options ---
 use_tensorboard: False # Log results to tensorboard
-use_wandb: False # Log results to W&B
-wandb_team: null # W&B team name
-wandb_project: null # W&B project name
-wandb_mode: "offline" # W&B mode (online/offline)
-wandb_save_model: False # Save models to W&B (only done if use_wandb is True and save_model is True)
-save_model: False # Save the models to disk
-save_model_interval: 50000 # Save models after this many timesteps
+use_wandb: True # Log results to W&B
+wandb_team: "university_of_calgary" # W&B team name
+wandb_project: "rware-mappo" # W&B project name
+wandb_mode: "online" # W&B mode (online/offline)
+wandb_save_model: True # Save models to W&B (only done if use_wandb is True and save_model is True)
+save_model: True # Save the models to disk
+save_model_interval: 50000 # Save models after this many timesteps 
 checkpoint_path: "" # Load a checkpoint from this path
 evaluate: False # Evaluate model for test_nepisode episodes and quit (no training)
 render: False # Render the environment when evaluating (only when evaluate == True)
