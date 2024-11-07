@@ -1,0 +1,20 @@
+[INFO 22:13:23] my_main *******************
+[INFO 22:13:23] my_main WANDB RUN ID:
+[INFO 22:13:23] my_main mh3682kf
+[INFO 22:13:23] my_main *******************
+/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/stdout_capturing.py:179: UserWarning: tee_stdout.wait timeout. Forcibly terminating.
+  warnings.warn("tee_stdout.wait timeout. Forcibly terminating.")
+/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/stdout_capturing.py:185: UserWarning: tee_stderr.wait timeout. Forcibly terminating.
+  warnings.warn("tee_stderr.wait timeout. Forcibly terminating.")
+[DEBUG 22:13:25] pymarl Stopping Heartbeat
+[ERROR 22:13:25] pymarl Failed after 0:00:03!
+Traceback (most recent calls WITHOUT Sacred internals):
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/src/main.py", line 44, in my_main
+    run(_run, config, _log)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/src/run.py", line 67, in run
+    run_sequential(args=args, logger=logger)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/src/run.py", line 138, in run_sequential
+    mac = mac_REGISTRY[args.mac](buffer.scheme, groups, args)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/src/controllers/basic_controller.py", line 51, in __init__
+    max_steps=args.max_steps,
+AttributeError: 'types.SimpleNamespace' object has no attribute 'max_steps'

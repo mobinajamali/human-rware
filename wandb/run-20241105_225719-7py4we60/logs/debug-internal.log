@@ -1,0 +1,16 @@
+{"time":"2024-11-05T22:57:19.684538725-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-05T22:57:19.684567141-07:00","level":"INFO","msg":"created symlink","path":"/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/wandb/run-20241105_225719-7py4we60/logs/debug-core.log"}
+{"time":"2024-11-05T22:57:19.788835144-07:00","level":"INFO","msg":"created new stream","id":"7py4we60"}
+{"time":"2024-11-05T22:57:19.788876893-07:00","level":"INFO","msg":"stream: started","id":"7py4we60"}
+{"time":"2024-11-05T22:57:19.789001767-07:00","level":"INFO","msg":"sender: started","stream_id":"7py4we60"}
+{"time":"2024-11-05T22:57:19.788914184-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"7py4we60"}}
+{"time":"2024-11-05T22:57:19.788960725-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"7py4we60"}}
+{"time":"2024-11-05T22:57:20.02574934-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-05T22:57:32.60624849-07:00","level":"INFO","msg":"stream: closing","id":"7py4we60"}
+{"time":"2024-11-05T22:57:32.606275281-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-05T22:57:32.606643152-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-05T22:57:33.081130792-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-05T22:57:33.247596705-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"7py4we60"}}
+{"time":"2024-11-05T22:57:33.247663162-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"7py4we60"}}
+{"time":"2024-11-05T22:57:33.247682912-07:00","level":"INFO","msg":"sender: closed","stream_id":"7py4we60"}
+{"time":"2024-11-05T22:57:33.247783994-07:00","level":"INFO","msg":"stream: closed","id":"7py4we60"}

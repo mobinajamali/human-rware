@@ -1,0 +1,40 @@
+{
+  "os": "Linux-6.8.0-1009-apple-arm-aarch64-with-glibc2.38",
+  "python": "3.10.15",
+  "startedAt": "2024-11-06T05:19:09.244904Z",
+  "args": [
+    "--config=mappo",
+    "--env-config=gymma",
+    "with",
+    "env_args.time_limit=50",
+    "env_args.key=rware:rware-tiny-4ag-v2",
+    "common_reward=False"
+  ],
+  "program": "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/src/main.py",
+  "codePath": "src/main.py",
+  "git": {
+    "remote": "git@github.com:mobinajamali/human-rware.git",
+    "commit": "98f333057906741c69d5bac3262e29daaad7581f"
+  },
+  "email": "mobina.jamali.mj@gmail.com",
+  "root": "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware",
+  "host": "localhost.localdomain",
+  "username": "ubuntu",
+  "executable": "/home/ubuntu/miniconda3/envs/epymarl/bin/python",
+  "codePathLocal": "src/main.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "189365202944",
+      "used": "29396267008"
+    }
+  },
+  "memory": {
+    "total": "16415113216"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  }
+}

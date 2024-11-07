@@ -1,3 +1,3 @@
-[submodule "robotic-warehouse"]
-	path = robotic-warehouse
-	url = git@github.com:semitable/robotic-warehouse.git
+[submodule "robotic_warehouse"]
+	path = robotic_warehouse
+	url = git@github.com:semitable/robotic_warehouse.git

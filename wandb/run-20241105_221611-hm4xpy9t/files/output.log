@@ -1,0 +1,30 @@
+[INFO 22:16:12] my_main *******************
+[INFO 22:16:12] my_main WANDB RUN ID:
+[INFO 22:16:12] my_main hm4xpy9t
+[INFO 22:16:12] my_main *******************
+/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/stdout_capturing.py:179: UserWarning: tee_stdout.wait timeout. Forcibly terminating.
+  warnings.warn("tee_stdout.wait timeout. Forcibly terminating.")
+/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/stdout_capturing.py:185: UserWarning: tee_stderr.wait timeout. Forcibly terminating.
+  warnings.warn("tee_stderr.wait timeout. Forcibly terminating.")
+[DEBUG 22:16:14] pymarl Stopping Heartbeat
+[ERROR 22:16:14] pymarl Failed after 0:00:03!
+Traceback (most recent calls WITHOUT Sacred internals):
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/src/main.py", line 44, in my_main
+    run(_run, config, _log)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/src/run.py", line 67, in run
+    run_sequential(args=args, logger=logger)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/src/run.py", line 138, in run_sequential
+    mac = mac_REGISTRY[args.mac](buffer.scheme, groups, args)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/src/controllers/basic_controller.py", line 50, in __init__
+    self.interactive_env = InteractiveRWAREEnv(env=args.env,
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/human-rware/src/robotic_warehouse/human_play.py", line 56, in __init__
+    self.env = gym.make(env, render_mode="human", max_steps=max_steps)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 687, in make
+    env_spec = _find_spec(id)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 531, in _find_spec
+    _check_version_exists(ns, name, version)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 397, in _check_version_exists
+    _check_name_exists(ns, name)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 374, in _check_name_exists
+    raise error.NameNotFound(
+gymnasium.error.NameNotFound: Environment `gymma` doesn't exist.
