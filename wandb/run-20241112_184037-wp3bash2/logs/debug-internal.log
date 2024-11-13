@@ -1,0 +1,16 @@
+{"time":"2024-11-12T18:40:37.821024808-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-12T18:40:37.821031392-07:00","level":"INFO","msg":"created symlink","path":"/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/wandb/run-20241112_184037-wp3bash2/logs/debug-core.log"}
+{"time":"2024-11-12T18:40:37.9228898-07:00","level":"INFO","msg":"created new stream","id":"wp3bash2"}
+{"time":"2024-11-12T18:40:37.922927092-07:00","level":"INFO","msg":"stream: started","id":"wp3bash2"}
+{"time":"2024-11-12T18:40:37.922981592-07:00","level":"INFO","msg":"sender: started","stream_id":"wp3bash2"}
+{"time":"2024-11-12T18:40:37.922946217-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wp3bash2"}}
+{"time":"2024-11-12T18:40:37.923021175-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wp3bash2"}}
+{"time":"2024-11-12T18:40:38.228561735-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-12T18:41:00.213840168-07:00","level":"INFO","msg":"stream: closing","id":"wp3bash2"}
+{"time":"2024-11-12T18:41:00.213866709-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-12T18:41:00.214209209-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-12T18:41:02.132934417-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-12T18:41:02.349846579-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"wp3bash2"}}
+{"time":"2024-11-12T18:41:02.349911954-07:00","level":"INFO","msg":"sender: closed","stream_id":"wp3bash2"}
+{"time":"2024-11-12T18:41:02.349906913-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wp3bash2"}}
+{"time":"2024-11-12T18:41:02.350058788-07:00","level":"INFO","msg":"stream: closed","id":"wp3bash2"}

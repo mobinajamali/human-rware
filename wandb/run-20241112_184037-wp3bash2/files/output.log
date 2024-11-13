@@ -1,0 +1,174 @@
+[INFO 18:40:38] my_main *******************
+[INFO 18:40:38] my_main WANDB RUN ID:
+[INFO 18:40:38] my_main wp3bash2
+[INFO 18:40:38] my_main *******************
+[INFO 18:40:38] my_main Beginning training for 3000000 timesteps
+/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/controllers/basic_controller.py:20: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = th.load(self.path)
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+[INFO 18:40:39] my_main t_env: 500 / 3000000
+[INFO 18:40:39] my_main Estimated time left: 21 seconds. Time passed: 0 seconds
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+[INFO 18:40:40] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 18_40_37.159234
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+Successfuly loaded the trained agent
+[DEBUG 18:41:00] pymarl Stopping Heartbeat
+[WARNING 18:41:00] pymarl Aborted after 0:00:23!
+Traceback (most recent call last):
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 135, in <module>
+    ex.run_commandline(params)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/experiment.py", line 313, in run_commandline
+    return self.run(
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/experiment.py", line 277, in run
+    run()
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 44, in my_main
+    run(_run, config, _log)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 70, in run
+    run_sequential(args=args, logger=logger)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 252, in run_sequential
+    learner.train(
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/learners/ppo_learner.py", line 111, in train
+    agent_outs, expert_agent_outs  = self.mac.forward(batch, agent_help, t=t)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/controllers/basic_controller.py", line 84, in forward
+    agent_outs, self.hidden_states = self.agent(agent_inputs, self.hidden_states)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/modules/agents/rnn_agent.py", line 29, in forward
+    h = self.rnn(x, h_in)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/rnn.py", line 1812, in forward
+    ret = _VF.gru_cell(
+KeyboardInterrupt

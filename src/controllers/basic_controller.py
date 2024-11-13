@@ -21,25 +21,12 @@ class TrainedAgent:
             self.model.load_state_dict(state_dict)
         return self.model
 
-    def get_action(self, agent_inputs):
-        with th.no_grad():
-            agent_inputs_tensor = th.tensor(agent_inputs, dtype=th.float32)
-            outputs = self.model(agent_inputs_tensor)
-            
-            #agent_outs = trained_agent(agent_inputs, self.hidden_states)[0]
-            #agent_outs = agent_outs.clone().detach().requires_grad_(True)
-        return outputs
-
-
 # This multi-agent controller shares parameters between agents
 class BasicMAC:
-    def __init__(self, scheme, groups, args, help_flag=True, trained_agent_path=None):
+    def __init__(self, scheme, groups, args):
         self.n_agents = args.n_agents
         self.args = args
-        self.help_flag = help_flag
-        #self.k_steps = args.k_steps  
-        self.k_steps = 10
-        self.step_counter = 1  
+        self.teaming_mode = False  
 
         input_shape = self._get_input_shape(scheme)
         self._build_agents(input_shape)
@@ -47,35 +34,32 @@ class BasicMAC:
         self.action_selector = action_REGISTRY[args.action_selector](args)
         self.hidden_states = None
 
-        self.interactive_env = InteractiveRWAREEnv(env="rware-tiny-4ag-v2", 
-                                                   #max_steps=args.max_steps,   # CHANGE
-                                                   max_steps=500,
-                                                   display_info=True) # CHANGE
+    def select_actions(self, ep_batch, t_ep, t_env, bs=slice(None), test_mode=False, agent_help_flag=False):
+        avail_actions = ep_batch["avail_actions"][:, t_ep]
+        agent_outputs, expert_agent_outputs = self.forward(ep_batch, agent_help_flag, t_ep,  test_mode=test_mode)
+        chosen_actions = self.action_selector.select_action(
+            agent_outputs[bs], avail_actions[bs], t_env, test_mode=test_mode)
+        if expert_agent_outputs is not None:
+            expert_chosen_actions = self.action_selector.select_action(
+                expert_agent_outputs[bs], avail_actions[bs], t_env, test_mode=test_mode)
+        else:
+            expert_chosen_actions = None
+        return chosen_actions, expert_chosen_actions
 
 
-    def select_actions(self, ep_batch, t_ep, t_env, test_mode=False):
-        if self.help_flag and self.step_counter % self.k_steps == 0:  # human input step
-            obss, actions = self.interactive_env.get_current_human_action()
-            actions = [act.value for act in actions]
-        else:  # agent policy step
-            path = os.path.expanduser("~/PERSONAL-DIR/UOA-NEW/human-rware/results/models/mappo_seed663242369_rware:rware-tiny-4ag-v2_2024-11-02 16:24:42.284341/5000500/agent.th")
-            trained_agent = TrainedAgent(path).load_agent()
-            print("Successfuly loaded the trained agent")
-            
-            agent_inputs = self._build_inputs(ep_batch, t_ep)
-            action = trained_agent.get_action(agent_inputs)
-            
-            avail_actions = ep_batch["avail_actions"][:, t_ep]
-            agent_outputs = self.forward(agent_inputs, avail_actions, ep_batch, t_ep, test_mode=test_mode)
-            actions = self.action_selector.select_action(agent_outputs, avail_actions, t_env, test_mode=test_mode)
-        print(f'step_counter: {self.step_counter}')
-        self.step_counter += 1 
-        return actions
-
-    def forward(self, agent_inputs, ep_batch, avail_actions, t, test_mode=False):
-        #agent_inputs = self._build_inputs(ep_batch, t)
-        #avail_actions = ep_batch["avail_actions"][:, t]
+    def forward(self, ep_batch, agent_help_flag, t, test_mode=False):
+        agent_inputs = self._build_inputs(ep_batch, t)
+        avail_actions = ep_batch["avail_actions"][:, t]
         agent_outs, self.hidden_states = self.agent(agent_inputs, self.hidden_states)
+
+        path="~/PERSONAL-DIR/UOA-NEW/final/human-rware/results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977/agent.th"
+        path = os.path.expanduser(path)
+        if agent_help_flag : 
+            trained_agent = TrainedAgent(path).load_agent()
+            with th.no_grad():
+                expert_agent_outs = trained_agent(agent_inputs, self.hidden_states)[0]
+                expert_agent_outs = agent_outs.clone().detach()  # .requires_grad_(True)
+        
 
         # Softmax the agent outputs if they're policy logits
         if self.agent_output_type == "pi_logits":
@@ -83,10 +67,24 @@ class BasicMAC:
             if getattr(self.args, "mask_before_softmax", True):
                 # Make the logits for unavailable actions very negative to minimise their affect on the softmax
                 reshaped_avail_actions = avail_actions.reshape(ep_batch.batch_size * self.n_agents, -1)
+                agent_outs = agent_outs.clone()
                 agent_outs[reshaped_avail_actions == 0] = -1e10
+
+                if agent_help_flag:
+                    expert_agent_outs[reshaped_avail_actions == 0] = -1e10
             agent_outs = th.nn.functional.softmax(agent_outs, dim=-1)
 
-        return agent_outs.view(ep_batch.batch_size, self.n_agents, -1)
+            if agent_help_flag:
+                expert_agent_outs = th.nn.functional.softmax(expert_agent_outs, dim=-1)
+            #agent_outs assigns logits over the actions
+
+        if agent_help_flag:
+            return (
+                agent_outs.view(ep_batch.batch_size, self.n_agents, -1),
+                expert_agent_outs.view(ep_batch.batch_size, self.n_agents, -1),
+            )
+
+        return agent_outs.view(ep_batch.batch_size, self.n_agents, -1), None
 
     def init_hidden(self, batch_size):
         self.hidden_states = self.agent.init_hidden().unsqueeze(0).expand(batch_size, self.n_agents, -1)  # bav

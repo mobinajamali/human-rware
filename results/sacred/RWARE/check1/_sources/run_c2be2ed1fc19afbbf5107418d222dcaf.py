@@ -8,6 +8,7 @@ import threading
 from types import SimpleNamespace as SN
 import re
 import torch as th
+
 import sys
 import os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
@@ -213,15 +214,19 @@ def run_sequential(args, logger):
 
     logger.console_logger.info("Beginning training for {} timesteps".format(args.t_max))
     
+    helper_time = 100
+
     while runner.t_env <= args.t_max:
         # Run for a whole episode at a time
+        # CHANGE
         episode_batch, expertActions, trainingActions, expert_batch, timesteps, terminated_info= runner.run(test_mode=False)
         buffer.insert_episode_batch(episode_batch)
         expertBuffer.insert_episode_batch(expert_batch)
-
+        ####
         #  This buffer will contain the effect of the expert supervision
 
         if buffer.can_sample(args.batch_size):
+# CHANGE
             episode_sample = buffer.sample(args.batch_size)
             expert_episode_sample = expertBuffer.sample(args.batch_size)
 
@@ -233,8 +238,13 @@ def run_sequential(args, logger):
             episode_sample = episode_sample[:, :max_ep_t]
             expert_episode_sample = expert_episode_sample[:, :max_exp_t]
 
+####
             if episode_sample.device != args.device:
                 episode_sample.to(args.device)
+            
+            #At every helper_time timesteps, the trained agent gives the actions    
+            #if runner.t_env % helper_time == 0:
+            #    agent_help_flag = True
             
             #Only switch on if the mode is agent_helping_mode
             agent_help_flag = agent_helping_mode and agent_help_flag

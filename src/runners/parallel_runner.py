@@ -11,10 +11,14 @@ from envs import register_smac, register_smacv2
 # Based (very) heavily on SubprocVecEnv from OpenAI Baselines
 # https://github.com/openai/baselines/blob/master/baselines/common/vec_env/subproc_vec_env.py
 class ParallelRunner:
-    def __init__(self, args, logger):
+    def __init__(self, args, logger, agent_helping_mode, agent_help_flag):
         self.args = args
         self.logger = logger
         self.batch_size = self.args.batch_size_run
+
+        self.agent_helping_mode = agent_helping_mode
+        self.agent_help_flag = agent_help_flag
+        self.agent_helping_time = self.args.helper_time
 
         # Make subprocesses for the envs
         self.parent_conns, self.worker_conns = zip(
@@ -88,6 +92,7 @@ class ParallelRunner:
 
     def reset(self):
         self.batch = self.new_batch()
+        self.expert_batch = self.new_batch()
 
         # Reset the envs
         for parent_conn in self.parent_conns:
@@ -105,6 +110,10 @@ class ParallelRunner:
 
         self.t = 0
         self.env_steps_this_run = 0
+        self.expertActions = []
+        self.trainingActions = []
+        self.time = []
+        self.terminated_envs = []
 
     def run(self, test_mode=False):
         self.reset()
@@ -122,18 +131,33 @@ class ParallelRunner:
         envs_not_terminated = [
             b_idx for b_idx, termed in enumerate(terminated) if not termed
         ]
-        final_env_infos = []  # may store extra stats like battle won. this is filled in ORDER OF TERMINATION
+        final_env_infos = (
+            []
+        )  # may store extra stats like battle won. this is filled in ORDER OF TERMINATION
 
         while True:
             # Pass the entire batch of experiences up till now to the agents
             # Receive the actions for each agent at this timestep in a batch for each un-terminated env
-            actions = self.mac.select_actions(
+
+            if self.t % self.agent_helping_time == 0:
+                self.agent_help_flag = True
+
+            agent_help_flag = self.agent_help_flag and self.agent_helping_mode
+            actions, expert_actions = self.mac.select_actions(
                 self.batch,
                 t_ep=self.t,
                 t_env=self.t_env,
                 bs=envs_not_terminated,
                 test_mode=test_mode,
+                agent_help_flag=agent_help_flag,
             )
+
+            if agent_help_flag:
+                self.expertActions.append(expert_actions)
+                self.trainingActions.append(actions)
+                actions = expert_actions
+                self.time.append(self.t)
+                self.terminated_envs = [b_idx for b_idx, termed in enumerate(terminated) if termed]
             cpu_actions = actions.to("cpu").numpy()
 
             # Update the actions taken
@@ -141,6 +165,10 @@ class ParallelRunner:
             self.batch.update(
                 actions_chosen, bs=envs_not_terminated, ts=self.t, mark_filled=False
             )
+
+            self.expert_batch.update(
+                actions_chosen, bs=envs_not_terminated, ts=self.t, mark_filled=False
+            ) if agent_help_flag else None
 
             # Send actions to each env
             action_idx = 0
@@ -202,13 +230,26 @@ class ParallelRunner:
                 mark_filled=False,
             )
 
+            self.expert_batch.update(
+                post_transition_data,
+                bs=envs_not_terminated,
+                ts=self.t,
+                mark_filled=False,
+            ) if agent_help_flag else None
+
             # Move onto the next timestep
             self.t += 1
+
+            self.agent_help_flag = False
 
             # Add the pre-transition data
             self.batch.update(
                 pre_transition_data, bs=envs_not_terminated, ts=self.t, mark_filled=True
             )
+
+            self.expert_batch.update(
+                pre_transition_data, bs=envs_not_terminated, ts=self.t, mark_filled=True
+            ) if agent_help_flag else None
 
         if not test_mode:
             self.t_env += self.env_steps_this_run
@@ -250,7 +291,7 @@ class ParallelRunner:
                 )
             self.log_train_stats_t = self.t_env
 
-        return self.batch
+        return self.batch, self.expertActions, self.trainingActions, self.expert_batch, self.time, self.terminated_envs
 
     def _log(self, returns, stats, prefix):
         if self.args.common_reward:

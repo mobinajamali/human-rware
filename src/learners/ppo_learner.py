@@ -1,9 +1,11 @@
 # code heavily adapted from https://github.com/AnujMahajanOxf/MAVEN
 import copy
-
+import torch.nn.functional as F
 import torch as th
 from torch.optim import Adam
-
+import sys
+import os
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from components.episode_buffer import EpisodeBatch
 from components.standarize_stream import RunningMeanStd
 from modules.critics import REGISTRY as critic_resigtry
@@ -38,17 +40,40 @@ class PPOLearner:
             rew_shape = (1,) if self.args.common_reward else (self.n_agents,)
             self.rew_ms = RunningMeanStd(shape=rew_shape, device=device)
 
-    def train(self, batch: EpisodeBatch, t_env: int, episode_num: int):
-        # Get the relevant quantities
 
+    def train(
+        self,
+        batch: EpisodeBatch, #episode_sample
+        t_env: int,
+        episode_num: int,
+        agent_help_flag=False,
+        expertActions=None,
+        trainingActions=None,
+        expert_episode_sample=None, 
+        timesteps = None,
+        terminated_info = None,
+    ):
+        # Get the relevant quantities
+        
         rewards = batch["reward"][:, :-1]
         actions = batch["actions"][:, :]
+        expert_actions_new = expert_episode_sample["actions"][:, :-1]
+        expert_actions_new = F.one_hot(expert_actions_new.squeeze(-1), num_classes=5).float()
+        dim_to_check = expert_actions_new.shape[1]
         terminated = batch["terminated"][:, :-1].float()
         mask = batch["filled"][:, :-1].float()
         mask[:, 1:] = mask[:, 1:] * (1 - terminated[:, :-1])
         actions = actions[:, :-1]
 
-        if self.args.standardise_rewards:
+        lambd = self.args.lambd  
+
+        agent_helping_mode = self.args.agent_help_mode
+
+        if agent_helping_mode:   
+            criterion = th.nn.BCEWithLogitsLoss()
+        agent_help = agent_help_flag
+
+        if self.args.standardise_rewards: 
             self.rew_ms.update(rewards)
             rewards = (rewards - self.rew_ms.mean) / th.sqrt(self.rew_ms.var)
 
@@ -60,13 +85,12 @@ class PPOLearner:
             rewards = rewards.expand(-1, -1, self.n_agents)
 
         mask = mask.repeat(1, 1, self.n_agents)
-
         critic_mask = mask.clone()
 
         old_mac_out = []
         self.old_mac.init_hidden(batch.batch_size)
         for t in range(batch.max_seq_length - 1):
-            agent_outs = self.old_mac.forward(batch, t=t)
+            agent_outs, _ = self.old_mac.forward(batch, agent_help, t=t)
             old_mac_out.append(agent_outs)
         old_mac_out = th.stack(old_mac_out, dim=1)  # Concat over time
         old_pi = old_mac_out
@@ -76,12 +100,20 @@ class PPOLearner:
         old_log_pi_taken = th.log(old_pi_taken + 1e-10)
 
         for k in range(self.args.epochs):
+
+            self.agent_optimiser.zero_grad()
+            expert_mac_actions = []
             mac_out = []
             self.mac.init_hidden(batch.batch_size)
             for t in range(batch.max_seq_length - 1):
-                agent_outs = self.mac.forward(batch, t=t)
+                agent_outs, expert_agent_outs  = self.mac.forward(batch, agent_help, t=t)
                 mac_out.append(agent_outs)
             mac_out = th.stack(mac_out, dim=1)  # Concat over time
+
+            if agent_helping_mode:
+                for t in range(expert_episode_sample.max_seq_length - 1): 
+                    expert_agent_outs, _ = self.mac.forward(expert_episode_sample, agent_help, t=t)
+                    expert_mac_actions.append(expert_agent_outs)
 
             pi = mac_out
             advantages, critic_train_stats = self.train_critic_sequential(
@@ -103,6 +135,7 @@ class PPOLearner:
             )
 
             entropy = -th.sum(pi * th.log(pi + 1e-10), dim=-1)
+
             pg_loss = (
                 -(
                     (th.min(surr1, surr2) + self.args.entropy_coef * entropy) * mask
@@ -110,9 +143,23 @@ class PPOLearner:
                 / mask.sum()
             )
 
+            if agent_helping_mode and expert_actions_new.size(1) != 0:
+                expert_actions_hat = th.stack(expert_mac_actions, dim=1)[:, :dim_to_check, :, :]
+                expert_actions_indices = expert_actions_new.argmax(dim=-1).view(-1).long()
+                expert_actions_hat = expert_actions_hat.reshape(-1, 5) ### check
+                criterion = th.nn.CrossEntropyLoss()
+                bc_loss = criterion(expert_actions_hat, expert_actions_indices)                
+
+            total_loss = pg_loss
+            if agent_helping_mode:
+                if expert_actions_new.size(1) ==0:
+                    bc_loss = 0
+                    print("SKIPPED")
+                total_loss += lambd * bc_loss
+                # print("pg_loss", total_loss)
+
             # Optimise agents
-            self.agent_optimiser.zero_grad()
-            pg_loss.backward()
+            total_loss.backward()
             grad_norm = th.nn.utils.clip_grad_norm_(
                 self.agent_params, self.args.grad_norm_clip
             )

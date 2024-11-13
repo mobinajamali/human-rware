@@ -1,0 +1,699 @@
+[INFO 16:19:26] my_main *******************
+[INFO 16:19:26] my_main WANDB RUN ID:
+[INFO 16:19:26] my_main ecwdw1rk
+[INFO 16:19:26] my_main *******************
+[INFO 16:19:26] my_main Beginning training for 3000000 timesteps
+[INFO 16:19:27] my_main t_env: 500 / 3000000
+[INFO 16:19:27] my_main Estimated time left: 37 seconds. Time passed: 0 seconds
+[INFO 16:19:29] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:20:03] my_main Recent Stats | t_env:      50000 | Episode:     1000
+advantage_mean:            0.0138	agent_0_return_mean:       0.0000	agent_0_return_std:        0.0000	agent_1_return_mean:       0.0000
+agent_1_return_std:        0.0000	agent_2_return_mean:       0.0020	agent_2_return_std:        0.0282	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0070	critic_grad_norm:          0.1825	critic_loss:               0.0027
+ep_length_mean:           50.0000	pg_loss:                  -0.0152	pi_max:                    0.4104	q_taken_mean:              0.2432
+target_mean:               0.2570	td_error_abs:              0.0356	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0000
+test_total_return_std:     0.0000	total_return_mean:         0.0030	total_return_std:          0.0340	
+[INFO 16:20:04] my_main t_env: 50500 / 3000000
+[INFO 16:20:04] my_main Estimated time left: 36 minutes, 3 seconds. Time passed: 37 seconds
+[INFO 16:20:38] my_main Recent Stats | t_env:     100000 | Episode:     2000
+advantage_mean:           -0.1134	agent_0_return_mean:       0.0060	agent_0_return_std:        0.0680	agent_1_return_mean:       0.0030
+agent_1_return_std:        0.0340	agent_2_return_mean:       0.0020	agent_2_return_std:        0.0282	agent_3_return_mean:       0.0000
+agent_3_return_std:        0.0000	agent_grad_norm:           0.0799	critic_grad_norm:          0.8395	critic_loss:               0.0209
+ep_length_mean:           50.0000	pg_loss:                   0.1128	pi_max:                    0.6740	q_taken_mean:              0.4103
+target_mean:               0.2970	td_error_abs:              0.1190	test_agent_0_return_mean:  0.0050	test_agent_0_return_std:   0.0497
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0050
+test_total_return_std:     0.0497	total_return_mean:         0.0110	total_return_std:          0.1011	
+[INFO 16:20:38] my_main t_env: 100500 / 3000000
+[INFO 16:20:38] my_main Estimated time left: 33 minutes, 15 seconds. Time passed: 1 minutes, 11 seconds
+[INFO 16:20:39] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:21:12] my_main Recent Stats | t_env:     150000 | Episode:     3000
+advantage_mean:           -0.0143	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0020
+agent_1_return_std:        0.0199	agent_2_return_mean:       0.0050	agent_2_return_std:        0.0622	agent_3_return_mean:       0.0000
+agent_3_return_std:        0.0000	agent_grad_norm:           0.0110	critic_grad_norm:          0.1549	critic_loss:               0.0042
+ep_length_mean:           50.0000	pg_loss:                   0.0133	pi_max:                    0.6169	q_taken_mean:              0.3169
+target_mean:               0.3026	td_error_abs:              0.0490	test_agent_0_return_mean:  0.0033	test_agent_0_return_std:   0.0332
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0033
+test_total_return_std:     0.0332	total_return_mean:         0.0080	total_return_std:          0.0761	
+[INFO 16:21:12] my_main t_env: 150500 / 3000000
+[INFO 16:21:12] my_main Estimated time left: 32 minutes, 18 seconds. Time passed: 1 minutes, 45 seconds
+[INFO 16:21:46] my_main Recent Stats | t_env:     200000 | Episode:     4000
+advantage_mean:           -0.0376	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0010
+agent_1_return_std:        0.0141	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0164	critic_grad_norm:          0.2801	critic_loss:               0.0096
+ep_length_mean:           50.0000	pg_loss:                   0.0362	pi_max:                    0.4477	q_taken_mean:              0.3144
+target_mean:               0.2769	td_error_abs:              0.0665	test_agent_0_return_mean:  0.0025	test_agent_0_return_std:   0.0249
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0025
+test_total_return_std:     0.0249	total_return_mean:         0.0030	total_return_std:          0.0340	
+[INFO 16:21:47] my_main t_env: 200500 / 3000000
+[INFO 16:21:47] my_main Estimated time left: 32 minutes, 5 seconds. Time passed: 2 minutes, 20 seconds
+[INFO 16:21:48] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:22:21] my_main Recent Stats | t_env:     250000 | Episode:     5000
+advantage_mean:            0.1181	agent_0_return_mean:       0.0000	agent_0_return_std:        0.0000	agent_1_return_mean:       0.0020
+agent_1_return_std:        0.0199	agent_2_return_mean:       0.0010	agent_2_return_std:        0.0141	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0614	critic_grad_norm:          0.8468	critic_loss:              33.6135
+ep_length_mean:           50.0000	pg_loss:                  -0.1231	pi_max:                    0.5319	q_taken_mean:              0.2950
+target_mean:               0.4132	td_error_abs:              0.1737	test_agent_0_return_mean:  0.0020	test_agent_0_return_std:   0.0199
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0020
+test_total_return_std:     0.0199	total_return_mean:         0.0040	total_return_std:          0.0481	
+[INFO 16:22:22] my_main t_env: 250500 / 3000000
+[INFO 16:22:22] my_main Estimated time left: 32 minutes, 0 seconds. Time passed: 2 minutes, 55 seconds
+[INFO 16:22:56] my_main Recent Stats | t_env:     300000 | Episode:     6000
+advantage_mean:            0.0028	agent_0_return_mean:       0.0000	agent_0_return_std:        0.0000	agent_1_return_mean:       0.0010
+agent_1_return_std:        0.0141	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0086	critic_grad_norm:          0.0467	critic_loss:               0.0019
+ep_length_mean:           50.0000	pg_loss:                  -0.0037	pi_max:                    0.6525	q_taken_mean:              0.2747
+target_mean:               0.2775	td_error_abs:              0.0326	test_agent_0_return_mean:  0.0020	test_agent_0_return_std:   0.0199
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0020
+test_total_return_std:     0.0199	total_return_mean:         0.0020	total_return_std:          0.0282	
+[INFO 16:22:56] my_main t_env: 300500 / 3000000
+[INFO 16:22:56] my_main Estimated time left: 30 minutes, 58 seconds. Time passed: 3 minutes, 29 seconds
+[INFO 16:22:57] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:23:30] my_main Recent Stats | t_env:     350000 | Episode:     7000
+advantage_mean:           -0.0447	agent_0_return_mean:       0.0000	agent_0_return_std:        0.0000	agent_1_return_mean:       0.0020
+agent_1_return_std:        0.0199	agent_2_return_mean:       0.0020	agent_2_return_std:        0.0282	agent_3_return_mean:       0.0030
+agent_3_return_std:        0.0340	agent_grad_norm:           0.0317	critic_grad_norm:          0.5325	critic_loss:               0.0194
+ep_length_mean:           50.0000	pg_loss:                   0.0436	pi_max:                    0.6452	q_taken_mean:              0.2943
+target_mean:               0.2496	td_error_abs:              0.0866	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0000
+test_total_return_std:     0.0000	total_return_mean:         0.0070	total_return_std:          0.0724	
+[INFO 16:23:30] my_main t_env: 350500 / 3000000
+[INFO 16:23:30] my_main Estimated time left: 30 minutes, 26 seconds. Time passed: 4 minutes, 3 seconds
+[INFO 16:24:05] my_main Recent Stats | t_env:     400000 | Episode:     8000
+advantage_mean:           -0.0015	agent_0_return_mean:       0.0000	agent_0_return_std:        0.0000	agent_1_return_mean:       0.0000
+agent_1_return_std:        0.0000	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0000
+agent_3_return_std:        0.0000	agent_grad_norm:           0.0111	critic_grad_norm:          0.0157	critic_loss:               0.0016
+ep_length_mean:           50.0000	pg_loss:                   0.0006	pi_max:                    0.6670	q_taken_mean:              0.2587
+target_mean:               0.2572	td_error_abs:              0.0292	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0000
+test_total_return_std:     0.0000	total_return_mean:         0.0000	total_return_std:          0.0000	
+[INFO 16:24:05] my_main t_env: 400500 / 3000000
+[INFO 16:24:05] my_main Estimated time left: 30 minutes, 13 seconds. Time passed: 4 minutes, 38 seconds
+[INFO 16:24:06] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:24:40] my_main Recent Stats | t_env:     450000 | Episode:     9000
+advantage_mean:            0.0549	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0010
+agent_1_return_std:        0.0141	agent_2_return_mean:       0.0030	agent_2_return_std:        0.0340	agent_3_return_mean:       0.0000
+agent_3_return_std:        0.0000	agent_grad_norm:           0.1221	critic_grad_norm:          0.6418	critic_loss:              14.7557
+ep_length_mean:           50.0000	pg_loss:                  -0.0677	pi_max:                    0.7368	q_taken_mean:              0.2725
+target_mean:               0.3274	td_error_abs:              0.1344	test_agent_0_return_mean:  0.0020	test_agent_0_return_std:   0.0199
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0040
+test_total_return_std:     0.0280	total_return_mean:         0.0050	total_return_std:          0.0622	
+[INFO 16:24:40] my_main t_env: 450500 / 3000000
+[INFO 16:24:40] my_main Estimated time left: 29 minutes, 25 seconds. Time passed: 5 minutes, 13 seconds
+[INFO 16:25:14] my_main Recent Stats | t_env:     500000 | Episode:    10000
+advantage_mean:           -0.0902	agent_0_return_mean:       0.0000	agent_0_return_std:        0.0000	agent_1_return_mean:       0.0000
+agent_1_return_std:        0.0000	agent_2_return_mean:       0.0020	agent_2_return_std:        0.0282	agent_3_return_mean:       0.0030
+agent_3_return_std:        0.0340	agent_grad_norm:           0.1036	critic_grad_norm:          0.6311	critic_loss:               0.0240
+ep_length_mean:           50.0000	pg_loss:                   0.0912	pi_max:                    0.7644	q_taken_mean:              0.3537
+target_mean:               0.2635	td_error_abs:              0.1091	test_agent_0_return_mean:  0.0020	test_agent_0_return_std:   0.0199
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0040
+test_total_return_std:     0.0280	total_return_mean:         0.0050	total_return_std:          0.0525	
+[INFO 16:25:15] my_main t_env: 500500 / 3000000
+[INFO 16:25:15] my_main Estimated time left: 28 minutes, 58 seconds. Time passed: 5 minutes, 48 seconds
+[INFO 16:25:16] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:25:49] my_main Recent Stats | t_env:     550000 | Episode:    11000
+advantage_mean:           -0.0191	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0000
+agent_1_return_std:        0.0000	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0109	critic_grad_norm:          0.1167	critic_loss:               0.0035
+ep_length_mean:           50.0000	pg_loss:                   0.0185	pi_max:                    0.8189	q_taken_mean:              0.2571
+target_mean:               0.2380	td_error_abs:              0.0414	test_agent_0_return_mean:  0.0020	test_agent_0_return_std:   0.0199
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0040
+test_total_return_std:     0.0280	total_return_mean:         0.0020	total_return_std:          0.0199	
+[INFO 16:25:49] my_main t_env: 550500 / 3000000
+[INFO 16:25:49] my_main Estimated time left: 28 minutes, 8 seconds. Time passed: 6 minutes, 22 seconds
+[INFO 16:26:24] my_main Recent Stats | t_env:     600000 | Episode:    12000
+advantage_mean:           -0.0547	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0030
+agent_1_return_std:        0.0340	agent_2_return_mean:       0.0010	agent_2_return_std:        0.0141	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0232	critic_grad_norm:          0.4686	critic_loss:               0.0130
+ep_length_mean:           50.0000	pg_loss:                   0.0541	pi_max:                    0.8106	q_taken_mean:              0.2940
+target_mean:               0.2393	td_error_abs:              0.0905	test_agent_0_return_mean:  0.0020	test_agent_0_return_std:   0.0199
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0040
+test_total_return_std:     0.0280	total_return_mean:         0.0060	total_return_std:          0.0680	
+[INFO 16:26:24] my_main t_env: 600500 / 3000000
+[INFO 16:26:24] my_main Estimated time left: 27 minutes, 46 seconds. Time passed: 6 minutes, 57 seconds
+[INFO 16:26:25] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:26:58] my_main Recent Stats | t_env:     650000 | Episode:    13000
+advantage_mean:            0.0829	agent_0_return_mean:       0.0020	agent_0_return_std:        0.0282	agent_1_return_mean:       0.0010
+agent_1_return_std:        0.0141	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0000
+agent_3_return_std:        0.0000	agent_grad_norm:           0.0624	critic_grad_norm:          0.4921	critic_loss:              18.5870
+ep_length_mean:           50.0000	pg_loss:                  -0.0851	pi_max:                    0.7539	q_taken_mean:              0.2912
+target_mean:               0.3741	td_error_abs:              0.1340	test_agent_0_return_mean:  0.0020	test_agent_0_return_std:   0.0199
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0040	test_agent_2_return_std:   0.0398
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0060
+test_total_return_std:     0.0479	total_return_mean:         0.0030	total_return_std:          0.0340	
+[INFO 16:26:59] my_main t_env: 650500 / 3000000
+[INFO 16:26:59] my_main Estimated time left: 27 minutes, 17 seconds. Time passed: 7 minutes, 32 seconds
+[INFO 16:27:33] my_main Recent Stats | t_env:     700000 | Episode:    14000
+advantage_mean:            0.0723	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0010
+agent_1_return_std:        0.0141	agent_2_return_mean:       0.0020	agent_2_return_std:        0.0199	agent_3_return_mean:       0.0030
+agent_3_return_std:        0.0243	agent_grad_norm:           0.1191	critic_grad_norm:          0.7483	critic_loss:              21.9986
+ep_length_mean:           50.0000	pg_loss:                  -0.0749	pi_max:                    0.6988	q_taken_mean:              0.3071
+target_mean:               0.3794	td_error_abs:              0.1635	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0020
+test_total_return_std:     0.0199	total_return_mean:         0.0070	total_return_std:          0.0627	
+[INFO 16:27:34] my_main t_env: 700500 / 3000000
+[INFO 16:27:34] my_main Estimated time left: 26 minutes, 42 seconds. Time passed: 8 minutes, 7 seconds
+[INFO 16:27:35] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:28:08] my_main Recent Stats | t_env:     750000 | Episode:    15000
+advantage_mean:            0.0470	agent_0_return_mean:       0.0060	agent_0_return_std:        0.0597	agent_1_return_mean:       0.0020
+agent_1_return_std:        0.0282	agent_2_return_mean:       0.0010	agent_2_return_std:        0.0141	agent_3_return_mean:       0.0040
+agent_3_return_std:        0.0481	agent_grad_norm:           0.0715	critic_grad_norm:          0.7921	critic_loss:              18.6538
+ep_length_mean:           50.0000	pg_loss:                  -0.0475	pi_max:                    0.6988	q_taken_mean:              0.3581
+target_mean:               0.4051	td_error_abs:              0.1604	test_agent_0_return_mean:  0.0040	test_agent_0_return_std:   0.0280
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0060	test_agent_2_return_std:   0.0479
+test_agent_3_return_mean:  0.0020	test_agent_3_return_std:   0.0199	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0120
+test_total_return_std:     0.0635	total_return_mean:         0.0130	total_return_std:          0.0997	
+[INFO 16:28:09] my_main t_env: 750500 / 3000000
+[INFO 16:28:09] my_main Estimated time left: 26 minutes, 18 seconds. Time passed: 8 minutes, 42 seconds
+[INFO 16:28:43] my_main Recent Stats | t_env:     800000 | Episode:    16000
+advantage_mean:            0.0602	agent_0_return_mean:       0.0050	agent_0_return_std:        0.0539	agent_1_return_mean:       0.0030
+agent_1_return_std:        0.0423	agent_2_return_mean:       0.0030	agent_2_return_std:        0.0423	agent_3_return_mean:       0.0090
+agent_3_return_std:        0.0793	agent_grad_norm:           0.0315	critic_grad_norm:          0.7728	critic_loss:              17.1582
+ep_length_mean:           50.0000	pg_loss:                  -0.0609	pi_max:                    0.7720	q_taken_mean:              0.3670
+target_mean:               0.4272	td_error_abs:              0.1617	test_agent_0_return_mean:  0.0040	test_agent_0_return_std:   0.0280
+test_agent_1_return_mean:  0.0020	test_agent_1_return_std:   0.0199	test_agent_2_return_mean:  0.0060	test_agent_2_return_std:   0.0479
+test_agent_3_return_mean:  0.0040	test_agent_3_return_std:   0.0398	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0160
+test_total_return_std:     0.0915	total_return_mean:         0.0200	total_return_std:          0.1206	
+[INFO 16:28:43] my_main t_env: 800500 / 3000000
+[INFO 16:28:43] my_main Estimated time left: 25 minutes, 27 seconds. Time passed: 9 minutes, 16 seconds
+[INFO 16:28:45] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:29:19] my_main Recent Stats | t_env:     850000 | Episode:    17000
+advantage_mean:            0.0041	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0010
+agent_1_return_std:        0.0141	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0000
+agent_3_return_std:        0.0000	agent_grad_norm:           0.0124	critic_grad_norm:          0.0384	critic_loss:               0.0018
+ep_length_mean:           50.0000	pg_loss:                  -0.0047	pi_max:                    0.8075	q_taken_mean:              0.3396
+target_mean:               0.3437	td_error_abs:              0.0336	test_agent_0_return_mean:  0.0040	test_agent_0_return_std:   0.0280
+test_agent_1_return_mean:  0.0020	test_agent_1_return_std:   0.0199	test_agent_2_return_mean:  0.0060	test_agent_2_return_std:   0.0479
+test_agent_3_return_mean:  0.0060	test_agent_3_return_std:   0.0597	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0180
+test_total_return_std:     0.1114	total_return_mean:         0.0020	total_return_std:          0.0282	
+[INFO 16:29:20] my_main t_env: 850500 / 3000000
+[INFO 16:29:20] my_main Estimated time left: 26 minutes, 0 seconds. Time passed: 9 minutes, 53 seconds
+[INFO 16:29:54] my_main Recent Stats | t_env:     900000 | Episode:    18000
+advantage_mean:            0.0298	agent_0_return_mean:       0.0030	agent_0_return_std:        0.0423	agent_1_return_mean:       0.0060
+agent_1_return_std:        0.0583	agent_2_return_mean:       0.0010	agent_2_return_std:        0.0141	agent_3_return_mean:       0.0090
+agent_3_return_std:        0.0826	agent_grad_norm:           0.4470	critic_grad_norm:          0.7094	critic_loss:              16.6667
+ep_length_mean:           50.0000	pg_loss:                  -0.0326	pi_max:                    0.6638	q_taken_mean:              0.3914
+target_mean:               0.4212	td_error_abs:              0.1707	test_agent_0_return_mean:  0.0040	test_agent_0_return_std:   0.0280
+test_agent_1_return_mean:  0.0020	test_agent_1_return_std:   0.0199	test_agent_2_return_mean:  0.0060	test_agent_2_return_std:   0.0479
+test_agent_3_return_mean:  0.0060	test_agent_3_return_std:   0.0597	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0180
+test_total_return_std:     0.1114	total_return_mean:         0.0190	total_return_std:          0.1195	
+[INFO 16:29:54] my_main t_env: 900500 / 3000000
+[INFO 16:29:54] my_main Estimated time left: 24 minutes, 4 seconds. Time passed: 10 minutes, 27 seconds
+[INFO 16:29:55] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:30:28] my_main Recent Stats | t_env:     950000 | Episode:    19000
+advantage_mean:           -0.0176	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0000
+agent_1_return_std:        0.0000	agent_2_return_mean:       0.0020	agent_2_return_std:        0.0199	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0417	critic_grad_norm:          0.1572	critic_loss:               0.0046
+ep_length_mean:           50.0000	pg_loss:                   0.0167	pi_max:                    0.6387	q_taken_mean:              0.3893
+target_mean:               0.3717	td_error_abs:              0.0528	test_agent_0_return_mean:  0.0040	test_agent_0_return_std:   0.0280
+test_agent_1_return_mean:  0.0020	test_agent_1_return_std:   0.0199	test_agent_2_return_mean:  0.0060	test_agent_2_return_std:   0.0479
+test_agent_3_return_mean:  0.0080	test_agent_3_return_std:   0.0796	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0200
+test_total_return_std:     0.1313	total_return_mean:         0.0040	total_return_std:          0.0384	
+[INFO 16:30:29] my_main t_env: 950500 / 3000000
+[INFO 16:30:29] my_main Estimated time left: 23 minutes, 33 seconds. Time passed: 11 minutes, 2 seconds
+[INFO 16:31:03] my_main Recent Stats | t_env:    1000000 | Episode:    20000
+advantage_mean:           -0.0255	agent_0_return_mean:       0.0020	agent_0_return_std:        0.0199	agent_1_return_mean:       0.0000
+agent_1_return_std:        0.0000	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0278	critic_grad_norm:          0.1893	critic_loss:               0.0053
+ep_length_mean:           50.0000	pg_loss:                   0.0243	pi_max:                    0.5657	q_taken_mean:              0.3810
+target_mean:               0.3556	td_error_abs:              0.0511	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0020	test_agent_1_return_std:   0.0199	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0060	test_agent_3_return_std:   0.0597	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0100
+test_total_return_std:     0.0877	total_return_mean:         0.0030	total_return_std:          0.0243	
+[INFO 16:31:03] my_main t_env: 1000500 / 3000000
+[INFO 16:31:03] my_main Estimated time left: 22 minutes, 54 seconds. Time passed: 11 minutes, 36 seconds
+[INFO 16:31:04] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:31:38] my_main Recent Stats | t_env:    1050000 | Episode:    21000
+advantage_mean:            0.1359	agent_0_return_mean:       0.0000	agent_0_return_std:        0.0000	agent_1_return_mean:       0.0020
+agent_1_return_std:        0.0282	agent_2_return_mean:       0.0010	agent_2_return_std:        0.0141	agent_3_return_mean:       0.0050
+agent_3_return_std:        0.0622	agent_grad_norm:           0.5485	critic_grad_norm:          0.9609	critic_loss:              23.3186
+ep_length_mean:           50.0000	pg_loss:                  -0.1454	pi_max:                    0.7482	q_taken_mean:              0.3431
+target_mean:               0.4790	td_error_abs:              0.1912	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0040	test_agent_3_return_std:   0.0398	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0060
+test_total_return_std:     0.0597	total_return_mean:         0.0080	total_return_std:          0.0879	
+[INFO 16:31:38] my_main t_env: 1050500 / 3000000
+[INFO 16:31:38] my_main Estimated time left: 22 minutes, 43 seconds. Time passed: 12 minutes, 11 seconds
+[INFO 16:32:12] my_main Recent Stats | t_env:    1100000 | Episode:    22000
+advantage_mean:           -0.0277	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0000
+agent_1_return_std:        0.0000	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0020
+agent_3_return_std:        0.0282	agent_grad_norm:           0.0141	critic_grad_norm:          0.2130	critic_loss:               0.0041
+ep_length_mean:           50.0000	pg_loss:                   0.0274	pi_max:                    0.9171	q_taken_mean:              0.3324
+target_mean:               0.3047	td_error_abs:              0.0489	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0020	test_agent_3_return_std:   0.0199	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0040
+test_total_return_std:     0.0398	total_return_mean:         0.0030	total_return_std:          0.0423	
+[INFO 16:32:13] my_main t_env: 1100500 / 3000000
+[INFO 16:32:13] my_main Estimated time left: 22 minutes, 6 seconds. Time passed: 12 minutes, 46 seconds
+[INFO 16:32:14] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:32:47] my_main Recent Stats | t_env:    1150000 | Episode:    23000
+advantage_mean:            0.0699	agent_0_return_mean:       0.0000	agent_0_return_std:        0.0000	agent_1_return_mean:       0.0000
+agent_1_return_std:        0.0000	agent_2_return_mean:       0.0020	agent_2_return_std:        0.0282	agent_3_return_mean:       0.0020
+agent_3_return_std:        0.0199	agent_grad_norm:           0.0494	critic_grad_norm:          0.7840	critic_loss:              18.3370
+ep_length_mean:           50.0000	pg_loss:                  -0.0736	pi_max:                    0.8021	q_taken_mean:              0.3269
+target_mean:               0.3968	td_error_abs:              0.1357	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0020	test_agent_3_return_std:   0.0199	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0020
+test_total_return_std:     0.0199	total_return_mean:         0.0040	total_return_std:          0.0384	
+[INFO 16:32:48] my_main t_env: 1150500 / 3000000
+[INFO 16:32:48] my_main Estimated time left: 21 minutes, 30 seconds. Time passed: 13 minutes, 21 seconds
+[INFO 16:33:22] my_main Recent Stats | t_env:    1200000 | Episode:    24000
+advantage_mean:           -0.0698	agent_0_return_mean:       0.0030	agent_0_return_std:        0.0340	agent_1_return_mean:       0.0020
+agent_1_return_std:        0.0199	agent_2_return_mean:       0.0020	agent_2_return_std:        0.0282	agent_3_return_mean:       0.0040
+agent_3_return_std:        0.0481	agent_grad_norm:           0.0324	critic_grad_norm:          0.5213	critic_loss:               0.0186
+ep_length_mean:           50.0000	pg_loss:                   0.0692	pi_max:                    0.8283	q_taken_mean:              0.3540
+target_mean:               0.2842	td_error_abs:              0.0931	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0000
+test_total_return_std:     0.0000	total_return_mean:         0.0110	total_return_std:          0.0992	
+[INFO 16:33:23] my_main t_env: 1200500 / 3000000
+[INFO 16:33:23] my_main Estimated time left: 20 minutes, 56 seconds. Time passed: 13 minutes, 56 seconds
+[INFO 16:33:24] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:33:57] my_main Recent Stats | t_env:    1250000 | Episode:    25000
+advantage_mean:           -0.0026	agent_0_return_mean:       0.0000	agent_0_return_std:        0.0000	agent_1_return_mean:       0.0000
+agent_1_return_std:        0.0000	agent_2_return_mean:       0.0010	agent_2_return_std:        0.0141	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0201	critic_grad_norm:          0.0739	critic_loss:               0.0029
+ep_length_mean:           50.0000	pg_loss:                   0.0016	pi_max:                    0.5994	q_taken_mean:              0.3311
+target_mean:               0.3285	td_error_abs:              0.0409	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0020	test_agent_1_return_std:   0.0199	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0040
+test_total_return_std:     0.0280	total_return_mean:         0.0020	total_return_std:          0.0282	
+[INFO 16:33:57] my_main t_env: 1250500 / 3000000
+[INFO 16:33:57] my_main Estimated time left: 20 minutes, 14 seconds. Time passed: 14 minutes, 30 seconds
+[INFO 16:34:32] my_main Recent Stats | t_env:    1300000 | Episode:    26000
+advantage_mean:           -0.0855	agent_0_return_mean:       0.0020	agent_0_return_std:        0.0282	agent_1_return_mean:       0.0030
+agent_1_return_std:        0.0340	agent_2_return_mean:       0.0010	agent_2_return_std:        0.0141	agent_3_return_mean:       0.0030
+agent_3_return_std:        0.0423	agent_grad_norm:           0.0650	critic_grad_norm:          0.5911	critic_loss:               0.0166
+ep_length_mean:           50.0000	pg_loss:                   0.0849	pi_max:                    0.7010	q_taken_mean:              0.3672
+target_mean:               0.2817	td_error_abs:              0.0944	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0020	test_agent_1_return_std:   0.0199	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0040
+test_total_return_std:     0.0280	total_return_mean:         0.0090	total_return_std:          0.0883	
+[INFO 16:34:32] my_main t_env: 1300500 / 3000000
+[INFO 16:34:32] my_main Estimated time left: 19 minutes, 46 seconds. Time passed: 15 minutes, 5 seconds
+[INFO 16:34:34] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:35:07] my_main Recent Stats | t_env:    1350000 | Episode:    27000
+advantage_mean:            0.0503	agent_0_return_mean:       0.0050	agent_0_return_std:        0.0442	agent_1_return_mean:       0.0060
+agent_1_return_std:        0.0680	agent_2_return_mean:       0.0060	agent_2_return_std:        0.0763	agent_3_return_mean:       0.0080
+agent_3_return_std:        0.0782	agent_grad_norm:           0.1133	critic_grad_norm:          2.5621	critic_loss:              34.0636
+ep_length_mean:           50.0000	pg_loss:                  -0.0534	pi_max:                    0.6271	q_taken_mean:              0.4328
+target_mean:               0.4830	td_error_abs:              0.3366	test_agent_0_return_mean:  0.0020	test_agent_0_return_std:   0.0199
+test_agent_1_return_mean:  0.0020	test_agent_1_return_std:   0.0199	test_agent_2_return_mean:  0.0040	test_agent_2_return_std:   0.0398
+test_agent_3_return_mean:  0.0020	test_agent_3_return_std:   0.0199	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0100
+test_total_return_std:     0.0621	total_return_mean:         0.0250	total_return_std:          0.1532	
+[INFO 16:35:07] my_main t_env: 1350500 / 3000000
+[INFO 16:35:07] my_main Estimated time left: 19 minutes, 2 seconds. Time passed: 15 minutes, 40 seconds
+[INFO 16:35:41] my_main Recent Stats | t_env:    1400000 | Episode:    28000
+advantage_mean:           -0.0515	agent_0_return_mean:       0.0070	agent_0_return_std:        0.0627	agent_1_return_mean:       0.0040
+agent_1_return_std:        0.0481	agent_2_return_mean:       0.0020	agent_2_return_std:        0.0282	agent_3_return_mean:       0.0060
+agent_3_return_std:        0.0666	agent_grad_norm:           0.0481	critic_grad_norm:          0.5338	critic_loss:               0.0183
+ep_length_mean:           50.0000	pg_loss:                   0.0505	pi_max:                    0.6401	q_taken_mean:              0.3318
+target_mean:               0.2803	td_error_abs:              0.0932	test_agent_0_return_mean:  0.0060	test_agent_0_return_std:   0.0479
+test_agent_1_return_mean:  0.0040	test_agent_1_return_std:   0.0398	test_agent_2_return_mean:  0.0060	test_agent_2_return_std:   0.0597
+test_agent_3_return_mean:  0.0020	test_agent_3_return_std:   0.0199	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0180
+test_total_return_std:     0.1013	total_return_mean:         0.0190	total_return_std:          0.1156	
+[INFO 16:35:42] my_main t_env: 1400500 / 3000000
+[INFO 16:35:42] my_main Estimated time left: 18 minutes, 30 seconds. Time passed: 16 minutes, 15 seconds
+[INFO 16:35:43] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:36:16] my_main Recent Stats | t_env:    1450000 | Episode:    29000
+advantage_mean:            0.0017	agent_0_return_mean:       0.0040	agent_0_return_std:        0.0481	agent_1_return_mean:       0.0030
+agent_1_return_std:        0.0423	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0020
+agent_3_return_std:        0.0282	agent_grad_norm:           0.0757	critic_grad_norm:          0.4474	critic_loss:               0.0236
+ep_length_mean:           50.0000	pg_loss:                  -0.0027	pi_max:                    0.6768	q_taken_mean:              0.3662
+target_mean:               0.3679	td_error_abs:              0.1057	test_agent_0_return_mean:  0.0060	test_agent_0_return_std:   0.0479
+test_agent_1_return_mean:  0.0080	test_agent_1_return_std:   0.0678	test_agent_2_return_mean:  0.0060	test_agent_2_return_std:   0.0597
+test_agent_3_return_mean:  0.0040	test_agent_3_return_std:   0.0398	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0240
+test_total_return_std:     0.1354	total_return_mean:         0.0090	total_return_std:          0.0805	
+[INFO 16:36:16] my_main t_env: 1450500 / 3000000
+[INFO 16:36:16] my_main Estimated time left: 17 minutes, 56 seconds. Time passed: 16 minutes, 49 seconds
+[INFO 16:36:51] my_main Recent Stats | t_env:    1500000 | Episode:    30000
+advantage_mean:            0.0259	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0020
+agent_1_return_std:        0.0282	agent_2_return_mean:       0.0020	agent_2_return_std:        0.0282	agent_3_return_mean:       0.0050
+agent_3_return_std:        0.0525	agent_grad_norm:           0.0527	critic_grad_norm:          0.2496	critic_loss:               0.0198
+ep_length_mean:           50.0000	pg_loss:                  -0.0267	pi_max:                    0.7426	q_taken_mean:              0.4655
+target_mean:               0.4914	td_error_abs:              0.1016	test_agent_0_return_mean:  0.0060	test_agent_0_return_std:   0.0479
+test_agent_1_return_mean:  0.0060	test_agent_1_return_std:   0.0479	test_agent_2_return_mean:  0.0040	test_agent_2_return_std:   0.0398
+test_agent_3_return_mean:  0.0040	test_agent_3_return_std:   0.0398	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0200
+test_total_return_std:     0.1074	total_return_mean:         0.0100	total_return_std:          0.0851	
+[INFO 16:36:52] my_main t_env: 1500500 / 3000000
+[INFO 16:36:52] my_main Estimated time left: 17 minutes, 44 seconds. Time passed: 17 minutes, 25 seconds
+[INFO 16:36:53] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:37:26] my_main Recent Stats | t_env:    1550000 | Episode:    31000
+advantage_mean:            0.0719	agent_0_return_mean:       0.0030	agent_0_return_std:        0.0340	agent_1_return_mean:       0.0020
+agent_1_return_std:        0.0282	agent_2_return_mean:       0.0040	agent_2_return_std:        0.0398	agent_3_return_mean:       0.0020
+agent_3_return_std:        0.0282	agent_grad_norm:           0.2625	critic_grad_norm:          1.5569	critic_loss:              12.7517
+ep_length_mean:           50.0000	pg_loss:                  -0.0748	pi_max:                    0.7712	q_taken_mean:              0.5546
+target_mean:               0.6265	td_error_abs:              0.1872	test_agent_0_return_mean:  0.0060	test_agent_0_return_std:   0.0479
+test_agent_1_return_mean:  0.0060	test_agent_1_return_std:   0.0479	test_agent_2_return_mean:  0.0040	test_agent_2_return_std:   0.0398
+test_agent_3_return_mean:  0.0040	test_agent_3_return_std:   0.0398	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0200
+test_total_return_std:     0.1074	total_return_mean:         0.0110	total_return_std:          0.1025	
+[INFO 16:37:27] my_main t_env: 1550500 / 3000000
+[INFO 16:37:27] my_main Estimated time left: 16 minutes, 50 seconds. Time passed: 18 minutes, 0 seconds
+[INFO 16:38:01] my_main Recent Stats | t_env:    1600000 | Episode:    32000
+advantage_mean:           -0.0490	agent_0_return_mean:       0.0030	agent_0_return_std:        0.0340	agent_1_return_mean:       0.0030
+agent_1_return_std:        0.0340	agent_2_return_mean:       0.0040	agent_2_return_std:        0.0481	agent_3_return_mean:       0.0030
+agent_3_return_std:        0.0340	agent_grad_norm:           0.0844	critic_grad_norm:          1.3206	critic_loss:               0.0434
+ep_length_mean:           50.0000	pg_loss:                   0.0478	pi_max:                    0.7051	q_taken_mean:              0.7103
+target_mean:               0.6613	td_error_abs:              0.1523	test_agent_0_return_mean:  0.0040	test_agent_0_return_std:   0.0280
+test_agent_1_return_mean:  0.0080	test_agent_1_return_std:   0.0678	test_agent_2_return_mean:  0.0040	test_agent_2_return_std:   0.0398
+test_agent_3_return_mean:  0.0020	test_agent_3_return_std:   0.0199	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0180
+test_total_return_std:     0.1013	total_return_mean:         0.0130	total_return_std:          0.0997	
+[INFO 16:38:02] my_main t_env: 1600500 / 3000000
+[INFO 16:38:02] my_main Estimated time left: 16 minutes, 19 seconds. Time passed: 18 minutes, 35 seconds
+[INFO 16:38:03] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:38:37] my_main Recent Stats | t_env:    1650000 | Episode:    33000
+advantage_mean:           -0.0707	agent_0_return_mean:       0.0030	agent_0_return_std:        0.0423	agent_1_return_mean:       0.0070
+agent_1_return_std:        0.0738	agent_2_return_mean:       0.0050	agent_2_return_std:        0.0525	agent_3_return_mean:       0.0050
+agent_3_return_std:        0.0539	agent_grad_norm:           0.1087	critic_grad_norm:          1.9323	critic_loss:               0.0618
+ep_length_mean:           50.0000	pg_loss:                   0.0699	pi_max:                    0.7649	q_taken_mean:              0.7287
+target_mean:               0.6580	td_error_abs:              0.1800	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0060	test_agent_1_return_std:   0.0479	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0020	test_agent_3_return_std:   0.0199	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0100
+test_total_return_std:     0.0621	total_return_mean:         0.0200	total_return_std:          0.1220	
+[INFO 16:38:37] my_main t_env: 1650500 / 3000000
+[INFO 16:38:37] my_main Estimated time left: 15 minutes, 51 seconds. Time passed: 19 minutes, 10 seconds
+[INFO 16:39:12] my_main Recent Stats | t_env:    1700000 | Episode:    34000
+advantage_mean:            0.1535	agent_0_return_mean:       0.0080	agent_0_return_std:        0.0768	agent_1_return_mean:       0.0120
+agent_1_return_std:        0.1062	agent_2_return_mean:       0.0110	agent_2_return_std:        0.0880	agent_3_return_mean:       0.0100
+agent_3_return_std:        0.0863	agent_grad_norm:           1.0865	critic_grad_norm:          5.2221	critic_loss:              20.6795
+ep_length_mean:           50.0000	pg_loss:                  -0.1560	pi_max:                    0.7418	q_taken_mean:              0.7765
+target_mean:               0.9300	td_error_abs:              0.3638	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0020	test_agent_1_return_std:   0.0199	test_agent_2_return_mean:  0.0020	test_agent_2_return_std:   0.0199
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0040
+test_total_return_std:     0.0280	total_return_mean:         0.0410	total_return_std:          0.1964	
+[INFO 16:39:12] my_main t_env: 1700500 / 3000000
+[INFO 16:39:12] my_main Estimated time left: 15 minutes, 11 seconds. Time passed: 19 minutes, 45 seconds
+[INFO 16:39:13] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:39:46] my_main Recent Stats | t_env:    1750000 | Episode:    35000
+advantage_mean:           -0.0514	agent_0_return_mean:       0.0120	agent_0_return_std:        0.1069	agent_1_return_mean:       0.0080
+agent_1_return_std:        0.0685	agent_2_return_mean:       0.0120	agent_2_return_std:        0.1036	agent_3_return_mean:       0.0130
+agent_3_return_std:        0.1073	agent_grad_norm:           0.3191	critic_grad_norm:          6.5000	critic_loss:              10.7456
+ep_length_mean:           50.0000	pg_loss:                   0.0497	pi_max:                    0.7132	q_taken_mean:              1.1456
+target_mean:               1.0942	td_error_abs:              0.3566	test_agent_0_return_mean:  0.0080	test_agent_0_return_std:   0.0392
+test_agent_1_return_mean:  0.0040	test_agent_1_return_std:   0.0398	test_agent_2_return_mean:  0.0060	test_agent_2_return_std:   0.0479
+test_agent_3_return_mean:  0.0040	test_agent_3_return_std:   0.0280	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0220
+test_total_return_std:     0.0918	total_return_mean:         0.0450	total_return_std:          0.2173	
+[INFO 16:39:47] my_main t_env: 1750500 / 3000000
+[INFO 16:39:47] my_main Estimated time left: 14 minutes, 29 seconds. Time passed: 20 minutes, 20 seconds
+[INFO 16:40:22] my_main Recent Stats | t_env:    1800000 | Episode:    36000
+advantage_mean:            0.3993	agent_0_return_mean:       0.0170	agent_0_return_std:        0.1102	agent_1_return_mean:       0.0230
+agent_1_return_std:        0.1445	agent_2_return_mean:       0.0210	agent_2_return_std:        0.1412	agent_3_return_mean:       0.0170
+agent_3_return_std:        0.1262	agent_grad_norm:           2.0538	critic_grad_norm:         23.4943	critic_loss:              83.0238
+ep_length_mean:           50.0000	pg_loss:                  -0.4083	pi_max:                    0.7716	q_taken_mean:              1.4067
+target_mean:               1.8060	td_error_abs:              1.0274	test_agent_0_return_mean:  0.0120	test_agent_0_return_std:   0.0672
+test_agent_1_return_mean:  0.0040	test_agent_1_return_std:   0.0398	test_agent_2_return_mean:  0.0120	test_agent_2_return_std:   0.0820
+test_agent_3_return_mean:  0.0080	test_agent_3_return_std:   0.0560	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0360
+test_total_return_std:     0.1429	total_return_mean:         0.0780	total_return_std:          0.2756	
+[INFO 16:40:22] my_main t_env: 1800500 / 3000000
+[INFO 16:40:22] my_main Estimated time left: 14 minutes, 2 seconds. Time passed: 20 minutes, 55 seconds
+[INFO 16:40:23] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:40:57] my_main Recent Stats | t_env:    1850000 | Episode:    37000
+advantage_mean:            0.3690	agent_0_return_mean:       0.0140	agent_0_return_std:        0.1046	agent_1_return_mean:       0.0200
+agent_1_return_std:        0.1335	agent_2_return_mean:       0.0250	agent_2_return_std:        0.1535	agent_3_return_mean:       0.0270
+agent_3_return_std:        0.1613	agent_grad_norm:           0.5545	critic_grad_norm:         19.6206	critic_loss:              51.7717
+ep_length_mean:           50.0000	pg_loss:                  -0.3730	pi_max:                    0.7644	q_taken_mean:              1.5250
+target_mean:               1.8941	td_error_abs:              0.9082	test_agent_0_return_mean:  0.0160	test_agent_0_return_std:   0.0952
+test_agent_1_return_mean:  0.0060	test_agent_1_return_std:   0.0479	test_agent_2_return_mean:  0.0140	test_agent_2_return_std:   0.0901
+test_agent_3_return_mean:  0.0160	test_agent_3_return_std:   0.0952	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0520
+test_total_return_std:     0.1749	total_return_mean:         0.0860	total_return_std:          0.2856	
+[INFO 16:40:57] my_main t_env: 1850500 / 3000000
+[INFO 16:40:57] my_main Estimated time left: 13 minutes, 26 seconds. Time passed: 21 minutes, 30 seconds
+[INFO 16:41:32] my_main Recent Stats | t_env:    1900000 | Episode:    38000
+advantage_mean:           -0.1114	agent_0_return_mean:       0.0330	agent_0_return_std:        0.1751	agent_1_return_mean:       0.0350
+agent_1_return_std:        0.1790	agent_2_return_mean:       0.0270	agent_2_return_std:        0.1568	agent_3_return_mean:       0.0400
+agent_3_return_std:        0.1931	agent_grad_norm:           1.5343	critic_grad_norm:         14.3015	critic_loss:              16.5193
+ep_length_mean:           50.0000	pg_loss:                   0.1092	pi_max:                    0.7453	q_taken_mean:              2.3544
+target_mean:               2.2431	td_error_abs:              0.8232	test_agent_0_return_mean:  0.0220	test_agent_0_return_std:   0.1293
+test_agent_1_return_mean:  0.0100	test_agent_1_return_std:   0.0759	test_agent_2_return_mean:  0.0180	test_agent_2_return_std:   0.1181
+test_agent_3_return_mean:  0.0200	test_agent_3_return_std:   0.1232	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0700
+test_total_return_std:     0.2321	total_return_mean:         0.1350	total_return_std:          0.3557	
+[INFO 16:41:32] my_main t_env: 1900500 / 3000000
+[INFO 16:41:32] my_main Estimated time left: 12 minutes, 45 seconds. Time passed: 22 minutes, 5 seconds
+[INFO 16:41:33] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:42:06] my_main Recent Stats | t_env:    1950000 | Episode:    39000
+advantage_mean:            0.0638	agent_0_return_mean:       0.0180	agent_0_return_std:        0.1281	agent_1_return_mean:       0.0350
+agent_1_return_std:        0.1738	agent_2_return_mean:       0.0190	agent_2_return_std:        0.1347	agent_3_return_mean:       0.0400
+agent_3_return_std:        0.1903	agent_grad_norm:           0.5148	critic_grad_norm:         34.1792	critic_loss:              27.5923
+ep_length_mean:           50.0000	pg_loss:                  -0.0673	pi_max:                    0.7449	q_taken_mean:              3.2255
+target_mean:               3.2892	td_error_abs:              1.0488	test_agent_0_return_mean:  0.0280	test_agent_0_return_std:   0.1634
+test_agent_1_return_mean:  0.0180	test_agent_1_return_std:   0.1151	test_agent_2_return_mean:  0.0260	test_agent_2_return_std:   0.1573
+test_agent_3_return_mean:  0.0300	test_agent_3_return_std:   0.1668	test_ep_length_mean:      50.0000	test_total_return_mean:    0.1020
+test_total_return_std:     0.3054	total_return_mean:         0.1120	total_return_std:          0.3181	
+[INFO 16:42:07] my_main t_env: 1950500 / 3000000
+[INFO 16:42:07] my_main Estimated time left: 12 minutes, 12 seconds. Time passed: 22 minutes, 40 seconds
+[INFO 16:42:41] my_main Recent Stats | t_env:    2000000 | Episode:    40000
+advantage_mean:           -0.3197	agent_0_return_mean:       0.0170	agent_0_return_std:        0.1231	agent_1_return_mean:       0.0360
+agent_1_return_std:        0.1789	agent_2_return_mean:       0.0270	agent_2_return_std:        0.1525	agent_3_return_mean:       0.0490
+agent_3_return_std:        0.2079	agent_grad_norm:           1.8415	critic_grad_norm:         36.0596	critic_loss:              22.6109
+ep_length_mean:           50.0000	pg_loss:                   0.3172	pi_max:                    0.7639	q_taken_mean:              3.6389
+target_mean:               3.3192	td_error_abs:              1.1950	test_agent_0_return_mean:  0.0320	test_agent_0_return_std:   0.1717
+test_agent_1_return_mean:  0.0240	test_agent_1_return_std:   0.1344	test_agent_2_return_mean:  0.0280	test_agent_2_return_std:   0.1634
+test_agent_3_return_mean:  0.0300	test_agent_3_return_std:   0.1668	test_ep_length_mean:      50.0000	test_total_return_mean:    0.1140
+test_total_return_std:     0.3130	total_return_mean:         0.1290	total_return_std:          0.3518	
+[INFO 16:42:42] my_main t_env: 2000500 / 3000000
+[INFO 16:42:42] my_main Estimated time left: 11 minutes, 40 seconds. Time passed: 23 minutes, 15 seconds
+[INFO 16:42:43] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:43:16] my_main Recent Stats | t_env:    2050000 | Episode:    41000
+advantage_mean:           -0.0201	agent_0_return_mean:       0.0480	agent_0_return_std:        0.2177	agent_1_return_mean:       0.0560
+agent_1_return_std:        0.2275	agent_2_return_mean:       0.0560	agent_2_return_std:        0.2272	agent_3_return_mean:       0.0590
+agent_3_return_std:        0.2311	agent_grad_norm:           2.5812	critic_grad_norm:         52.0262	critic_loss:              65.6330
+ep_length_mean:           50.0000	pg_loss:                   0.0124	pi_max:                    0.7695	q_taken_mean:              5.5064
+target_mean:               5.4863	td_error_abs:              2.2743	test_agent_0_return_mean:  0.0380	test_agent_0_return_std:   0.1873
+test_agent_1_return_mean:  0.0340	test_agent_1_return_std:   0.1780	test_agent_2_return_mean:  0.0320	test_agent_2_return_std:   0.1729
+test_agent_3_return_mean:  0.0320	test_agent_3_return_std:   0.1729	test_ep_length_mean:      50.0000	test_total_return_mean:    0.1360
+test_total_return_std:     0.3438	total_return_mean:         0.2190	total_return_std:          0.4481	
+[INFO 16:43:17] my_main t_env: 2050500 / 3000000
+[INFO 16:43:17] my_main Estimated time left: 11 minutes, 1 seconds. Time passed: 23 minutes, 50 seconds
+[INFO 16:43:52] my_main Recent Stats | t_env:    2100000 | Episode:    42000
+advantage_mean:           -0.1909	agent_0_return_mean:       0.0600	agent_0_return_std:        0.2355	agent_1_return_mean:       0.0660
+agent_1_return_std:        0.2454	agent_2_return_mean:       0.0640	agent_2_return_std:        0.2473	agent_3_return_mean:       0.0800
+agent_3_return_std:        0.2719	agent_grad_norm:           1.6972	critic_grad_norm:         33.6029	critic_loss:              35.3565
+ep_length_mean:           50.0000	pg_loss:                   0.1786	pi_max:                    0.7838	q_taken_mean:              4.1092
+target_mean:               3.9184	td_error_abs:              1.5861	test_agent_0_return_mean:  0.0440	test_agent_0_return_std:   0.2029
+test_agent_1_return_mean:  0.0440	test_agent_1_return_std:   0.2010	test_agent_2_return_mean:  0.0380	test_agent_2_return_std:   0.1885
+test_agent_3_return_mean:  0.0380	test_agent_3_return_std:   0.1847	test_ep_length_mean:      50.0000	test_total_return_mean:    0.1640
+test_total_return_std:     0.3738	total_return_mean:         0.2700	total_return_std:          0.5190	
+[INFO 16:43:53] my_main t_env: 2100500 / 3000000
+[INFO 16:43:53] my_main Estimated time left: 10 minutes, 48 seconds. Time passed: 24 minutes, 26 seconds
+[INFO 16:43:54] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:44:27] my_main Recent Stats | t_env:    2150000 | Episode:    43000
+advantage_mean:            0.1804	agent_0_return_mean:       0.0640	agent_0_return_std:        0.2423	agent_1_return_mean:       0.0810
+agent_1_return_std:        0.2709	agent_2_return_mean:       0.0710	agent_2_return_std:        0.2543	agent_3_return_mean:       0.0790
+agent_3_return_std:        0.2678	agent_grad_norm:           1.5145	critic_grad_norm:         41.8432	critic_loss:              34.1811
+ep_length_mean:           50.0000	pg_loss:                  -0.1952	pi_max:                    0.8138	q_taken_mean:              5.2813
+target_mean:               5.4617	td_error_abs:              1.7875	test_agent_0_return_mean:  0.0460	test_agent_0_return_std:   0.2080
+test_agent_1_return_mean:  0.0520	test_agent_1_return_std:   0.2205	test_agent_2_return_mean:  0.0460	test_agent_2_return_std:   0.2080
+test_agent_3_return_mean:  0.0400	test_agent_3_return_std:   0.1909	test_ep_length_mean:      50.0000	test_total_return_mean:    0.1840
+test_total_return_std:     0.4000	total_return_mean:         0.2950	total_return_std:          0.5092	
+[INFO 16:44:28] my_main t_env: 2150500 / 3000000
+[INFO 16:44:28] my_main Estimated time left: 9 minutes, 51 seconds. Time passed: 25 minutes, 1 seconds
+[INFO 16:45:02] my_main Recent Stats | t_env:    2200000 | Episode:    44000
+advantage_mean:           -0.0814	agent_0_return_mean:       0.0840	agent_0_return_std:        0.2736	agent_1_return_mean:       0.0980
+agent_1_return_std:        0.2914	agent_2_return_mean:       0.1010	agent_2_return_std:        0.3036	agent_3_return_mean:       0.0980
+agent_3_return_std:        0.3027	agent_grad_norm:           1.9302	critic_grad_norm:         64.7194	critic_loss:              42.4109
+ep_length_mean:           50.0000	pg_loss:                   0.0666	pi_max:                    0.7665	q_taken_mean:              5.3431
+target_mean:               5.2617	td_error_abs:              2.2654	test_agent_0_return_mean:  0.0640	test_agent_0_return_std:   0.2389
+test_agent_1_return_mean:  0.0500	test_agent_1_return_std:   0.2154	test_agent_2_return_mean:  0.0500	test_agent_2_return_std:   0.2163
+test_agent_3_return_mean:  0.0460	test_agent_3_return_std:   0.2015	test_ep_length_mean:      50.0000	test_total_return_mean:    0.2100
+test_total_return_std:     0.4258	total_return_mean:         0.3810	total_return_std:          0.5903	
+[INFO 16:45:02] my_main t_env: 2200500 / 3000000
+[INFO 16:45:02] my_main Estimated time left: 9 minutes, 17 seconds. Time passed: 25 minutes, 35 seconds
+[INFO 16:45:04] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:45:37] my_main Recent Stats | t_env:    2250000 | Episode:    45000
+advantage_mean:            0.1296	agent_0_return_mean:       0.1200	agent_0_return_std:        0.3234	agent_1_return_mean:       0.1260
+agent_1_return_std:        0.3299	agent_2_return_mean:       0.1180	agent_2_return_std:        0.3216	agent_3_return_mean:       0.1290
+agent_3_return_std:        0.3325	agent_grad_norm:           2.5007	critic_grad_norm:         67.9290	critic_loss:              34.8811
+ep_length_mean:           50.0000	pg_loss:                  -0.1450	pi_max:                    0.7961	q_taken_mean:              5.8357
+target_mean:               5.9652	td_error_abs:              2.2226	test_agent_0_return_mean:  0.0660	test_agent_0_return_std:   0.2424
+test_agent_1_return_mean:  0.0600	test_agent_1_return_std:   0.2335	test_agent_2_return_mean:  0.0580	test_agent_2_return_std:   0.2332
+test_agent_3_return_mean:  0.0680	test_agent_3_return_std:   0.2408	test_ep_length_mean:      50.0000	test_total_return_mean:    0.2520
+test_total_return_std:     0.4694	total_return_mean:         0.4930	total_return_std:          0.6528	
+[INFO 16:45:37] my_main t_env: 2250500 / 3000000
+[INFO 16:45:37] my_main Estimated time left: 8 minutes, 41 seconds. Time passed: 26 minutes, 10 seconds
+[INFO 16:46:12] my_main Recent Stats | t_env:    2300000 | Episode:    46000
+advantage_mean:            0.2238	agent_0_return_mean:       0.1670	agent_0_return_std:        0.3753	agent_1_return_mean:       0.1280
+agent_1_return_std:        0.3359	agent_2_return_mean:       0.1790	agent_2_return_std:        0.3815	agent_3_return_mean:       0.1700
+agent_3_return_std:        0.3728	agent_grad_norm:           2.6869	critic_grad_norm:        141.7887	critic_loss:              40.0425
+ep_length_mean:           50.0000	pg_loss:                  -0.2491	pi_max:                    0.8281	q_taken_mean:              8.5603
+target_mean:               8.7841	td_error_abs:              2.9542	test_agent_0_return_mean:  0.0760	test_agent_0_return_std:   0.2588
+test_agent_1_return_mean:  0.0860	test_agent_1_return_std:   0.2667	test_agent_2_return_mean:  0.0740	test_agent_2_return_std:   0.2569
+test_agent_3_return_mean:  0.0880	test_agent_3_return_std:   0.2739	test_ep_length_mean:      50.0000	test_total_return_mean:    0.3240
+test_total_return_std:     0.5461	total_return_mean:         0.6440	total_return_std:          0.7442	
+[INFO 16:46:12] my_main t_env: 2300500 / 3000000
+[INFO 16:46:12] my_main Estimated time left: 8 minutes, 5 seconds. Time passed: 26 minutes, 45 seconds
+[INFO 16:46:14] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:46:47] my_main Recent Stats | t_env:    2350000 | Episode:    47000
+advantage_mean:           -0.1409	agent_0_return_mean:       0.1790	agent_0_return_std:        0.3802	agent_1_return_mean:       0.1770
+agent_1_return_std:        0.3833	agent_2_return_mean:       0.1630	agent_2_return_std:        0.3684	agent_3_return_mean:       0.1810
+agent_3_return_std:        0.3859	agent_grad_norm:           3.3593	critic_grad_norm:         65.4431	critic_loss:              23.6497
+ep_length_mean:           50.0000	pg_loss:                   0.1280	pi_max:                    0.8397	q_taken_mean:              7.9842
+target_mean:               7.8432	td_error_abs:              2.3720	test_agent_0_return_mean:  0.0880	test_agent_0_return_std:   0.2778
+test_agent_1_return_mean:  0.1040	test_agent_1_return_std:   0.2890	test_agent_2_return_mean:  0.0960	test_agent_2_return_std:   0.2866
+test_agent_3_return_mean:  0.1160	test_agent_3_return_std:   0.3044	test_ep_length_mean:      50.0000	test_total_return_mean:    0.4040
+test_total_return_std:     0.5903	total_return_mean:         0.7000	total_return_std:          0.7248	
+[INFO 16:46:47] my_main t_env: 2350500 / 3000000
+[INFO 16:46:47] my_main Estimated time left: 7 minutes, 39 seconds. Time passed: 27 minutes, 20 seconds
+[INFO 16:47:22] my_main Recent Stats | t_env:    2400000 | Episode:    48000
+advantage_mean:            0.2007	agent_0_return_mean:       0.2250	agent_0_return_std:        0.4185	agent_1_return_mean:       0.2020
+agent_1_return_std:        0.4002	agent_2_return_mean:       0.1820	agent_2_return_std:        0.3870	agent_3_return_mean:       0.1880
+agent_3_return_std:        0.3874	agent_grad_norm:           1.6947	critic_grad_norm:        105.6985	critic_loss:              30.5045
+ep_length_mean:           50.0000	pg_loss:                  -0.2194	pi_max:                    0.8373	q_taken_mean:              9.9552
+target_mean:              10.1559	td_error_abs:              2.8774	test_agent_0_return_mean:  0.1220	test_agent_0_return_std:   0.3201
+test_agent_1_return_mean:  0.1440	test_agent_1_return_std:   0.3292	test_agent_2_return_mean:  0.1140	test_agent_2_return_std:   0.3105
+test_agent_3_return_mean:  0.1480	test_agent_3_return_std:   0.3487	test_ep_length_mean:      50.0000	test_total_return_mean:    0.5280
+test_total_return_std:     0.6610	total_return_mean:         0.7970	total_return_std:          0.7854	
+[INFO 16:47:22] my_main t_env: 2400500 / 3000000
+[INFO 16:47:22] my_main Estimated time left: 7 minutes, 0 seconds. Time passed: 27 minutes, 55 seconds
+[INFO 16:47:24] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:47:57] my_main Recent Stats | t_env:    2450000 | Episode:    49000
+advantage_mean:            0.0478	agent_0_return_mean:       0.2120	agent_0_return_std:        0.4083	agent_1_return_mean:       0.1630
+agent_1_return_std:        0.3716	agent_2_return_mean:       0.2150	agent_2_return_std:        0.4104	agent_3_return_mean:       0.1990
+agent_3_return_std:        0.4003	agent_grad_norm:           2.5279	critic_grad_norm:        103.6074	critic_loss:              21.2476
+ep_length_mean:           50.0000	pg_loss:                  -0.0639	pi_max:                    0.8128	q_taken_mean:             10.1332
+target_mean:              10.1810	td_error_abs:              2.4579	test_agent_0_return_mean:  0.1420	test_agent_0_return_std:   0.3379
+test_agent_1_return_mean:  0.1680	test_agent_1_return_std:   0.3665	test_agent_2_return_mean:  0.1380	test_agent_2_return_std:   0.3399
+test_agent_3_return_mean:  0.1660	test_agent_3_return_std:   0.3696	test_ep_length_mean:      50.0000	test_total_return_mean:    0.6140
+test_total_return_std:     0.7090	total_return_mean:         0.7890	total_return_std:          0.7553	
+[INFO 16:47:57] my_main t_env: 2450500 / 3000000
+[INFO 16:47:57] my_main Estimated time left: 6 minutes, 26 seconds. Time passed: 28 minutes, 30 seconds
+[INFO 16:48:32] my_main Recent Stats | t_env:    2500000 | Episode:    50000
+advantage_mean:           -0.0652	agent_0_return_mean:       0.1920	agent_0_return_std:        0.3956	agent_1_return_mean:       0.2070
+agent_1_return_std:        0.4041	agent_2_return_mean:       0.1820	agent_2_return_std:        0.3841	agent_3_return_mean:       0.1830
+agent_3_return_std:        0.3883	agent_grad_norm:           1.7737	critic_grad_norm:        164.8498	critic_loss:              20.5404
+ep_length_mean:           50.0000	pg_loss:                   0.0522	pi_max:                    0.8351	q_taken_mean:             12.1215
+target_mean:              12.0563	td_error_abs:              2.5208	test_agent_0_return_mean:  0.1660	test_agent_0_return_std:   0.3703
+test_agent_1_return_mean:  0.2040	test_agent_1_return_std:   0.4025	test_agent_2_return_mean:  0.1640	test_agent_2_return_std:   0.3688
+test_agent_3_return_mean:  0.1740	test_agent_3_return_std:   0.3774	test_ep_length_mean:      50.0000	test_total_return_mean:    0.7080
+test_total_return_std:     0.7686	total_return_mean:         0.7640	total_return_std:          0.7361	
+[INFO 16:48:32] my_main t_env: 2500500 / 3000000
+[INFO 16:48:32] my_main Estimated time left: 5 minutes, 50 seconds. Time passed: 29 minutes, 6 seconds
+[INFO 16:48:34] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:49:08] my_main Recent Stats | t_env:    2550000 | Episode:    51000
+advantage_mean:            0.0311	agent_0_return_mean:       0.2230	agent_0_return_std:        0.4206	agent_1_return_mean:       0.2090
+agent_1_return_std:        0.4064	agent_2_return_mean:       0.2220	agent_2_return_std:        0.4163	agent_3_return_mean:       0.2310
+agent_3_return_std:        0.4252	agent_grad_norm:           2.7510	critic_grad_norm:        111.7324	critic_loss:              17.3245
+ep_length_mean:           50.0000	pg_loss:                  -0.0426	pi_max:                    0.8509	q_taken_mean:             10.1413
+target_mean:              10.1724	td_error_abs:              2.2527	test_agent_0_return_mean:  0.1880	test_agent_0_return_std:   0.3918
+test_agent_1_return_mean:  0.2180	test_agent_1_return_std:   0.4123	test_agent_2_return_mean:  0.1880	test_agent_2_return_std:   0.3927
+test_agent_3_return_mean:  0.2000	test_agent_3_return_std:   0.3979	test_ep_length_mean:      50.0000	test_total_return_mean:    0.7940
+test_total_return_std:     0.7760	total_return_mean:         0.8850	total_return_std:          0.8447	
+[INFO 16:49:08] my_main t_env: 2550500 / 3000000
+[INFO 16:49:08] my_main Estimated time left: 5 minutes, 19 seconds. Time passed: 29 minutes, 41 seconds
+[INFO 16:49:43] my_main Recent Stats | t_env:    2600000 | Episode:    52000
+advantage_mean:           -0.0265	agent_0_return_mean:       0.2260	agent_0_return_std:        0.4199	agent_1_return_mean:       0.2210
+agent_1_return_std:        0.4195	agent_2_return_mean:       0.2130	agent_2_return_std:        0.4084	agent_3_return_mean:       0.2060
+agent_3_return_std:        0.4043	agent_grad_norm:           3.0021	critic_grad_norm:         96.5260	critic_loss:              16.1674
+ep_length_mean:           50.0000	pg_loss:                   0.0207	pi_max:                    0.8513	q_taken_mean:             10.1787
+target_mean:              10.1523	td_error_abs:              2.2211	test_agent_0_return_mean:  0.2080	test_agent_0_return_std:   0.4106
+test_agent_1_return_mean:  0.2300	test_agent_1_return_std:   0.4218	test_agent_2_return_mean:  0.2020	test_agent_2_return_std:   0.4035
+test_agent_3_return_mean:  0.1980	test_agent_3_return_std:   0.3964	test_ep_length_mean:      50.0000	test_total_return_mean:    0.8380
+test_total_return_std:     0.7994	total_return_mean:         0.8660	total_return_std:          0.8138	
+[INFO 16:49:43] my_main t_env: 2600500 / 3000000
+[INFO 16:49:43] my_main Estimated time left: 4 minutes, 41 seconds. Time passed: 30 minutes, 16 seconds
+[INFO 16:49:45] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:50:18] my_main Recent Stats | t_env:    2650000 | Episode:    53000
+advantage_mean:           -0.1838	agent_0_return_mean:       0.2360	agent_0_return_std:        0.4236	agent_1_return_mean:       0.2030
+agent_1_return_std:        0.4034	agent_2_return_mean:       0.2260	agent_2_return_std:        0.4161	agent_3_return_mean:       0.2360
+agent_3_return_std:        0.4308	agent_grad_norm:           1.4446	critic_grad_norm:         80.9373	critic_loss:              11.3996
+ep_length_mean:           50.0000	pg_loss:                   0.1763	pi_max:                    0.8641	q_taken_mean:              9.0570
+target_mean:               8.8732	td_error_abs:              1.8182	test_agent_0_return_mean:  0.2120	test_agent_0_return_std:   0.4133
+test_agent_1_return_mean:  0.2320	test_agent_1_return_std:   0.4228	test_agent_2_return_mean:  0.2060	test_agent_2_return_std:   0.4124
+test_agent_3_return_mean:  0.2000	test_agent_3_return_std:   0.3980	test_ep_length_mean:      50.0000	test_total_return_mean:    0.8500
+test_total_return_std:     0.7913	total_return_mean:         0.9010	total_return_std:          0.7924	
+[INFO 16:50:18] my_main t_env: 2650500 / 3000000
+[INFO 16:50:18] my_main Estimated time left: 4 minutes, 5 seconds. Time passed: 30 minutes, 51 seconds
+[INFO 16:50:54] my_main Recent Stats | t_env:    2700000 | Episode:    54000
+advantage_mean:            0.1567	agent_0_return_mean:       0.2680	agent_0_return_std:        0.4469	agent_1_return_mean:       0.2390
+agent_1_return_std:        0.4249	agent_2_return_mean:       0.2430	agent_2_return_std:        0.4330	agent_3_return_mean:       0.2440
+agent_3_return_std:        0.4340	agent_grad_norm:           1.9642	critic_grad_norm:        118.2957	critic_loss:              13.0643
+ep_length_mean:           50.0000	pg_loss:                  -0.1686	pi_max:                    0.8727	q_taken_mean:              9.8069
+target_mean:               9.9635	td_error_abs:              1.9693	test_agent_0_return_mean:  0.2200	test_agent_0_return_std:   0.4182
+test_agent_1_return_mean:  0.2520	test_agent_1_return_std:   0.4380	test_agent_2_return_mean:  0.2220	test_agent_2_return_std:   0.4233
+test_agent_3_return_mean:  0.2140	test_agent_3_return_std:   0.4083	test_ep_length_mean:      50.0000	test_total_return_mean:    0.9080
+test_total_return_std:     0.7924	total_return_mean:         0.9940	total_return_std:          0.8348	
+[INFO 16:50:54] my_main t_env: 2700500 / 3000000
+[INFO 16:50:54] my_main Estimated time left: 3 minutes, 33 seconds. Time passed: 31 minutes, 27 seconds
+[INFO 16:50:56] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:51:30] my_main Recent Stats | t_env:    2750000 | Episode:    55000
+advantage_mean:           -0.0195	agent_0_return_mean:       0.2610	agent_0_return_std:        0.4386	agent_1_return_mean:       0.2320
+agent_1_return_std:        0.4233	agent_2_return_mean:       0.2590	agent_2_return_std:        0.4409	agent_3_return_mean:       0.2560
+agent_3_return_std:        0.4375	agent_grad_norm:           1.6831	critic_grad_norm:         86.6229	critic_loss:              13.6803
+ep_length_mean:           50.0000	pg_loss:                   0.0125	pi_max:                    0.8595	q_taken_mean:              9.7439
+target_mean:               9.7244	td_error_abs:              2.0303	test_agent_0_return_mean:  0.2480	test_agent_0_return_std:   0.4289
+test_agent_1_return_mean:  0.2440	test_agent_1_return_std:   0.4290	test_agent_2_return_mean:  0.2320	test_agent_2_return_std:   0.4299
+test_agent_3_return_mean:  0.2180	test_agent_3_return_std:   0.4116	test_ep_length_mean:      50.0000	test_total_return_mean:    0.9420
+test_total_return_std:     0.7899	total_return_mean:         1.0080	total_return_std:          0.8667	
+[INFO 16:51:30] my_main t_env: 2750500 / 3000000
+[INFO 16:51:30] my_main Estimated time left: 2 minutes, 59 seconds. Time passed: 32 minutes, 3 seconds
+[INFO 16:52:05] my_main Recent Stats | t_env:    2800000 | Episode:    56000
+advantage_mean:           -0.0110	agent_0_return_mean:       0.2860	agent_0_return_std:        0.4530	agent_1_return_mean:       0.2530
+agent_1_return_std:        0.4343	agent_2_return_mean:       0.2530	agent_2_return_std:        0.4336	agent_3_return_mean:       0.2530
+agent_3_return_std:        0.4340	agent_grad_norm:           2.1827	critic_grad_norm:         76.9416	critic_loss:              12.9206
+ep_length_mean:           50.0000	pg_loss:                  -0.0005	pi_max:                    0.8853	q_taken_mean:             10.1073
+target_mean:              10.0963	td_error_abs:              1.9480	test_agent_0_return_mean:  0.2440	test_agent_0_return_std:   0.4259
+test_agent_1_return_mean:  0.2460	test_agent_1_return_std:   0.4301	test_agent_2_return_mean:  0.2060	test_agent_2_return_std:   0.4038
+test_agent_3_return_mean:  0.2160	test_agent_3_return_std:   0.4105	test_ep_length_mean:      50.0000	test_total_return_mean:    0.9120
+test_total_return_std:     0.7849	total_return_mean:         1.0450	total_return_std:          0.9027	
+[INFO 16:52:05] my_main t_env: 2800500 / 3000000
+[INFO 16:52:05] my_main Estimated time left: 2 minutes, 19 seconds. Time passed: 32 minutes, 38 seconds
+[INFO 16:52:07] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:52:40] my_main Recent Stats | t_env:    2850000 | Episode:    57000
+advantage_mean:           -0.0353	agent_0_return_mean:       0.2670	agent_0_return_std:        0.4429	agent_1_return_mean:       0.2460
+agent_1_return_std:        0.4291	agent_2_return_mean:       0.2410	agent_2_return_std:        0.4294	agent_3_return_mean:       0.2670
+agent_3_return_std:        0.4418	agent_grad_norm:           1.8947	critic_grad_norm:         63.7070	critic_loss:              12.1267
+ep_length_mean:           50.0000	pg_loss:                   0.0311	pi_max:                    0.8931	q_taken_mean:             10.5187
+target_mean:              10.4834	td_error_abs:              1.9956	test_agent_0_return_mean:  0.2480	test_agent_0_return_std:   0.4286
+test_agent_1_return_mean:  0.2580	test_agent_1_return_std:   0.4371	test_agent_2_return_mean:  0.2180	test_agent_2_return_std:   0.4103
+test_agent_3_return_mean:  0.2300	test_agent_3_return_std:   0.4193	test_ep_length_mean:      50.0000	test_total_return_mean:    0.9540
+test_total_return_std:     0.8112	total_return_mean:         1.0210	total_return_std:          0.8518	
+[INFO 16:52:41] my_main t_env: 2850500 / 3000000
+[INFO 16:52:41] my_main Estimated time left: 1 minutes, 46 seconds. Time passed: 33 minutes, 14 seconds
+[INFO 16:53:16] my_main Recent Stats | t_env:    2900000 | Episode:    58000
+advantage_mean:           -0.2493	agent_0_return_mean:       0.2760	agent_0_return_std:        0.4462	agent_1_return_mean:       0.2500
+agent_1_return_std:        0.4311	agent_2_return_mean:       0.2460	agent_2_return_std:        0.4264	agent_3_return_mean:       0.2600
+agent_3_return_std:        0.4376	agent_grad_norm:           1.4903	critic_grad_norm:        121.8254	critic_loss:              11.7196
+ep_length_mean:           50.0000	pg_loss:                   0.2404	pi_max:                    0.8888	q_taken_mean:             12.1737
+target_mean:              11.9243	td_error_abs:              2.1180	test_agent_0_return_mean:  0.2600	test_agent_0_return_std:   0.4351
+test_agent_1_return_mean:  0.2560	test_agent_1_return_std:   0.4360	test_agent_2_return_mean:  0.2420	test_agent_2_return_std:   0.4208
+test_agent_3_return_mean:  0.2380	test_agent_3_return_std:   0.4292	test_ep_length_mean:      50.0000	test_total_return_mean:    0.9960
+test_total_return_std:     0.8478	total_return_mean:         1.0320	total_return_std:          0.8471	
+[INFO 16:53:16] my_main t_env: 2900500 / 3000000
+[INFO 16:53:16] my_main Estimated time left: 1 minutes, 10 seconds. Time passed: 33 minutes, 49 seconds
+[INFO 16:53:17] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:53:51] my_main Recent Stats | t_env:    2950000 | Episode:    59000
+advantage_mean:            0.2340	agent_0_return_mean:       0.2930	agent_0_return_std:        0.4535	agent_1_return_mean:       0.2820
+agent_1_return_std:        0.4520	agent_2_return_mean:       0.3120	agent_2_return_std:        0.4694	agent_3_return_mean:       0.2970
+agent_3_return_std:        0.4595	agent_grad_norm:           1.7620	critic_grad_norm:         86.5589	critic_loss:              14.7423
+ep_length_mean:           50.0000	pg_loss:                  -0.2451	pi_max:                    0.8981	q_taken_mean:             13.2612
+target_mean:              13.4953	td_error_abs:              2.3396	test_agent_0_return_mean:  0.2740	test_agent_0_return_std:   0.4415
+test_agent_1_return_mean:  0.2720	test_agent_1_return_std:   0.4435	test_agent_2_return_mean:  0.2500	test_agent_2_return_std:   0.4290
+test_agent_3_return_mean:  0.2540	test_agent_3_return_std:   0.4371	test_ep_length_mean:      50.0000	test_total_return_mean:    1.0500
+test_total_return_std:     0.8851	total_return_mean:         1.1840	total_return_std:          0.9363	
+[INFO 16:53:51] my_main t_env: 2950500 / 3000000
+[INFO 16:53:51] my_main Estimated time left: 34 seconds. Time passed: 34 minutes, 24 seconds
+[INFO 16:54:26] my_main Recent Stats | t_env:    3000000 | Episode:    60000
+advantage_mean:            0.2182	agent_0_return_mean:       0.3370	agent_0_return_std:        0.4681	agent_1_return_mean:       0.3170
+agent_1_return_std:        0.4641	agent_2_return_mean:       0.3240	agent_2_return_std:        0.4663	agent_3_return_mean:       0.3480
+agent_3_return_std:        0.4721	agent_grad_norm:           1.8632	critic_grad_norm:         69.3154	critic_loss:              12.7692
+ep_length_mean:           50.0000	pg_loss:                  -0.2246	pi_max:                    0.9171	q_taken_mean:             13.5567
+target_mean:              13.7749	td_error_abs:              2.1549	test_agent_0_return_mean:  0.2480	test_agent_0_return_std:   0.4274
+test_agent_1_return_mean:  0.2920	test_agent_1_return_std:   0.4533	test_agent_2_return_mean:  0.2600	test_agent_2_return_std:   0.4341
+test_agent_3_return_mean:  0.2760	test_agent_3_return_std:   0.4503	test_ep_length_mean:      50.0000	test_total_return_mean:    1.0760
+test_total_return_std:     0.8978	total_return_mean:         1.3260	total_return_std:          0.9641	
+[INFO 16:54:26] my_main t_env: 3000500 / 3000000
+[INFO 16:54:26] my_main Estimated time left: -. Time passed: 34 minutes, 59 seconds
+[INFO 16:54:28] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977
+[INFO 16:54:28] my_main Finished Training
