@@ -52,7 +52,7 @@ class BasicMAC:
         avail_actions = ep_batch["avail_actions"][:, t]
         agent_outs, self.hidden_states = self.agent(agent_inputs, self.hidden_states)
 
-        path="~/PERSONAL-DIR/UOA-NEW/final/human-rware/results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-12 16_19_25.258977/agent.th"
+        path="~/PERSONAL-DIR/UOA-NEW/final/human-rware/results/models/mappo_seed50_rware_rware-tiny-4ag-v2_2024-11-13 02_11_40.846690/agent.th"
         path = os.path.expanduser(path)
         if agent_help_flag : 
             trained_agent = TrainedAgent(path).load_agent()

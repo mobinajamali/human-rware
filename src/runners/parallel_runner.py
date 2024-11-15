@@ -18,7 +18,11 @@ class ParallelRunner:
 
         self.agent_helping_mode = agent_helping_mode
         self.agent_help_flag = agent_help_flag
-        self.agent_helping_time = self.args.helper_time
+        self.k_step = self.args.helper_time
+        self.initial_help_prob = self.args.initial_help_prob
+        self.k_min = self.args.k_min
+        self.k_dec = self.args.k_dec
+
 
         # Make subprocesses for the envs
         self.parent_conns, self.worker_conns = zip(
@@ -138,9 +142,18 @@ class ParallelRunner:
         while True:
             # Pass the entire batch of experiences up till now to the agents
             # Receive the actions for each agent at this timestep in a batch for each un-terminated env
+            
+            current_help_prob = max(
+                self.k_min,
+                self.initial_help_prob * np.exp(-self.t / self.k_dec)
+            )
 
-            if self.t % self.agent_helping_time == 0:
-                self.agent_help_flag = True
+            if self.t % self.k_step == 0:
+                if np.random.rand() < current_help_prob:
+                    self.agent_help_flag = True
+
+            #if self.t % self.agent_helping_time == 0:
+            #    self.agent_help_flag = True
 
             agent_help_flag = self.agent_help_flag and self.agent_helping_mode
             actions, expert_actions = self.mac.select_actions(

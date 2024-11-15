@@ -1,0 +1,17 @@
+{"time":"2024-11-13T02:11:41.563600563-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-13T02:11:41.56362398-07:00","level":"INFO","msg":"created symlink","path":"/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/wandb/run-20241113_021141-kjegw6ek/logs/debug-core.log"}
+{"time":"2024-11-13T02:11:41.669267062-07:00","level":"INFO","msg":"created new stream","id":"kjegw6ek"}
+{"time":"2024-11-13T02:11:41.669312689-07:00","level":"INFO","msg":"stream: started","id":"kjegw6ek"}
+{"time":"2024-11-13T02:11:41.669409775-07:00","level":"INFO","msg":"sender: started","stream_id":"kjegw6ek"}
+{"time":"2024-11-13T02:11:41.669367565-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"kjegw6ek"}}
+{"time":"2024-11-13T02:11:41.669355732-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"kjegw6ek"}}
+{"time":"2024-11-13T02:11:42.007664323-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-13T02:46:38.612580864-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-13T02:46:38.613591558-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-13T02:46:39.611958579-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.774946287}],"total_operations":1}}
+{"time":"2024-11-13T02:46:40.707932141-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-13T02:46:41.91794646-07:00","level":"INFO","msg":"stream: closing","id":"kjegw6ek"}
+{"time":"2024-11-13T02:46:41.91795521-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"kjegw6ek"}}
+{"time":"2024-11-13T02:46:41.91796221-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"kjegw6ek"}}
+{"time":"2024-11-13T02:46:41.917984544-07:00","level":"INFO","msg":"sender: closed","stream_id":"kjegw6ek"}
+{"time":"2024-11-13T02:46:41.918010753-07:00","level":"INFO","msg":"stream: closed","id":"kjegw6ek"}

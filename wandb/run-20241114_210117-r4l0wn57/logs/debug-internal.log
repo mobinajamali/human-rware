@@ -1,0 +1,17 @@
+{"time":"2024-11-14T21:01:17.352067849-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-14T21:01:17.352077307-07:00","level":"INFO","msg":"created symlink","path":"/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/wandb/run-20241114_210117-r4l0wn57/logs/debug-core.log"}
+{"time":"2024-11-14T21:01:17.457005919-07:00","level":"INFO","msg":"created new stream","id":"r4l0wn57"}
+{"time":"2024-11-14T21:01:17.457071292-07:00","level":"INFO","msg":"stream: started","id":"r4l0wn57"}
+{"time":"2024-11-14T21:01:17.457155705-07:00","level":"INFO","msg":"sender: started","stream_id":"r4l0wn57"}
+{"time":"2024-11-14T21:01:17.457122748-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"r4l0wn57"}}
+{"time":"2024-11-14T21:01:17.457108582-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"r4l0wn57"}}
+{"time":"2024-11-14T21:01:17.727676085-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-14T21:38:07.199752693-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-14T21:38:07.200258678-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-14T21:38:08.200204499-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.782257167,"subtasks":[{"desc":"wandb-job.json","runtime_seconds":0.172940119,"progress":"4.2KB/4.2KB"}]}],"total_operations":1}}
+{"time":"2024-11-14T21:38:08.922068238-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-14T21:38:10.113193916-07:00","level":"INFO","msg":"stream: closing","id":"r4l0wn57"}
+{"time":"2024-11-14T21:38:10.113201415-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"r4l0wn57"}}
+{"time":"2024-11-14T21:38:10.113209915-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"r4l0wn57"}}
+{"time":"2024-11-14T21:38:10.113233789-07:00","level":"INFO","msg":"sender: closed","stream_id":"r4l0wn57"}
+{"time":"2024-11-14T21:38:10.113237206-07:00","level":"INFO","msg":"stream: closed","id":"r4l0wn57"}

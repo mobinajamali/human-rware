@@ -59,6 +59,9 @@ hypergroup: null
 agent_help_mode : True
 lambd : 1  #0.01
 helper_time : 30
+k_min : 0.2
+k_dec : 1_000_000
+initial_help_prob : 1
 
 # --- Seeding ---
-seed: 45 
+seed: 50

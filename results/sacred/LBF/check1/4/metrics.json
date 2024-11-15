@@ -1,0 +1,123 @@
+{
+  "agent_0_return_mean": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572022"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "agent_0_return_std": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572102"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "agent_1_return_mean": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572116"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "agent_1_return_std": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572138"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "agent_2_return_mean": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572148"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "agent_2_return_std": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572166"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "agent_3_return_mean": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572176"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "agent_3_return_std": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572192"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "ep_length_mean": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572228"
+    ],
+    "values": [
+      50.0
+    ]
+  },
+  "total_return_mean": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572206"
+    ],
+    "values": [
+      0.0
+    ]
+  },
+  "total_return_std": {
+    "steps": [
+      500
+    ],
+    "timestamps": [
+      "2024-11-13T16:06:17.572222"
+    ],
+    "values": [
+      0.0
+    ]
+  }
+}

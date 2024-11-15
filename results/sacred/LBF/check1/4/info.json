@@ -1,0 +1,108 @@
+{
+  "agent_0_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "agent_0_return_mean_T": [
+    500
+  ],
+  "agent_0_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "agent_0_return_std_T": [
+    500
+  ],
+  "agent_1_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "agent_1_return_mean_T": [
+    500
+  ],
+  "agent_1_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "agent_1_return_std_T": [
+    500
+  ],
+  "agent_2_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "agent_2_return_mean_T": [
+    500
+  ],
+  "agent_2_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "agent_2_return_std_T": [
+    500
+  ],
+  "agent_3_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "agent_3_return_mean_T": [
+    500
+  ],
+  "agent_3_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "agent_3_return_std_T": [
+    500
+  ],
+  "ep_length_mean": [
+    50.0
+  ],
+  "ep_length_mean_T": [
+    500
+  ],
+  "total_return_mean": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "total_return_mean_T": [
+    500
+  ],
+  "total_return_std": [
+    {
+      "dtype": "float64",
+      "py/object": "numpy.float64",
+      "value": 0.0
+    }
+  ],
+  "total_return_std_T": [
+    500
+  ]
+}
