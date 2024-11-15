@@ -20,8 +20,8 @@ class ParallelRunner:
         self.agent_help_flag = agent_help_flag
         self.k_step = self.args.helper_time
         self.initial_help_prob = self.args.initial_help_prob
-        self.k_min = self.args.k_min
-        self.k_dec = self.args.k_dec
+        self.p_min = self.args.p_min
+        self.p_dec = self.args.p_dec
 
 
         # Make subprocesses for the envs
@@ -144,8 +144,8 @@ class ParallelRunner:
             # Receive the actions for each agent at this timestep in a batch for each un-terminated env
             
             current_help_prob = max(
-                self.k_min,
-                self.initial_help_prob * np.exp(-self.t / self.k_dec)
+                self.p_min,
+                self.initial_help_prob * np.exp(-self.t / self.p_dec)
             )
 
             if self.t % self.k_step == 0:
