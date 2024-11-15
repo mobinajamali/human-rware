@@ -143,12 +143,12 @@ class ParallelRunner:
             # Pass the entire batch of experiences up till now to the agents
             # Receive the actions for each agent at this timestep in a batch for each un-terminated env
             
-            current_help_prob = max(
-                self.p_min,
-                self.initial_help_prob * np.exp(-self.t / self.p_dec)
-            )
 
             if self.t % self.k_step == 0:
+                current_help_prob = max(
+                    self.p_min,
+                    self.initial_help_prob * np.exp(-self.t / self.p_dec))
+
                 if np.random.rand() < current_help_prob:
                     self.agent_help_flag = True
 
