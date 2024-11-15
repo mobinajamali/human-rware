@@ -1,0 +1,17 @@
+{"time":"2024-11-15T01:40:20.765555428-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-15T01:40:20.76557626-07:00","level":"INFO","msg":"created symlink","path":"/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/wandb/run-20241115_014020-6fj6xqmf/logs/debug-core.log"}
+{"time":"2024-11-15T01:40:20.869402367-07:00","level":"INFO","msg":"created new stream","id":"6fj6xqmf"}
+{"time":"2024-11-15T01:40:20.869460741-07:00","level":"INFO","msg":"stream: started","id":"6fj6xqmf"}
+{"time":"2024-11-15T01:40:20.86956828-07:00","level":"INFO","msg":"sender: started","stream_id":"6fj6xqmf"}
+{"time":"2024-11-15T01:40:20.869481282-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"6fj6xqmf"}}
+{"time":"2024-11-15T01:40:20.869516573-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"6fj6xqmf"}}
+{"time":"2024-11-15T01:40:21.093074852-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-15T02:17:55.257516974-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-15T02:17:55.263019839-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-15T02:17:56.257298585-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run config","runtime_seconds":0.998572288}],"total_operations":1}}
+{"time":"2024-11-15T02:17:57.612288987-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-15T02:17:58.782470969-07:00","level":"INFO","msg":"stream: closing","id":"6fj6xqmf"}
+{"time":"2024-11-15T02:17:58.782478135-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"6fj6xqmf"}}
+{"time":"2024-11-15T02:17:58.782486052-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"6fj6xqmf"}}
+{"time":"2024-11-15T02:17:58.782515343-07:00","level":"INFO","msg":"sender: closed","stream_id":"6fj6xqmf"}
+{"time":"2024-11-15T02:17:58.782571843-07:00","level":"INFO","msg":"stream: closed","id":"6fj6xqmf"}

@@ -1,0 +1,17 @@
+[INFO 01:09:29] my_main *******************
+[INFO 01:09:29] my_main WANDB RUN ID:
+[INFO 01:09:29] my_main wwyd003g
+[INFO 01:09:29] my_main *******************
+[INFO 01:09:30] my_main Beginning training for 3000000 timesteps
+[DEBUG 01:09:30] pymarl Stopping Heartbeat
+[ERROR 01:09:30] pymarl Failed after 0:00:02!
+Traceback (most recent calls WITHOUT Sacred internals):
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 44, in my_main
+    run(_run, config, _log)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 69, in run
+    run_sequential(args=args, logger=logger)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 218, in run_sequential
+    episode_batch, expertActions, trainingActions, expert_batch, timesteps, terminated_info= runner.run(test_mode=False)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/runners/parallel_runner.py", line 157, in run
+    if self.t % self.agent_helping_time == 0:
+AttributeError: 'ParallelRunner' object has no attribute 'agent_helping_time'

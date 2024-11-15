@@ -62,7 +62,8 @@ class Logger:
         seed = config.get("seed", 0)
         bc = config.get("lambd", 0)
         helptime = config.get("helper_time", 10)
-        run_name = f"help={agent_help_mode},seed={seed},helptime={helptime},bc={bc}"
+        p_dec = config.get("p_dec")
+        run_name = f"help={agent_help_mode},seed={seed},helptime={helptime},bc={bc}, p_dec={p_dec}"
 
         self.wandb = wandb.init(
             entity=team_name,

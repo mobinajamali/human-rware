@@ -60,8 +60,8 @@ agent_help_mode : True
 lambd : 1  #0.01
 helper_time : 30
 p_min : 0.2
-p_dec : 1_000_000
-initial_help_prob : 1
+p_dec : 100_000_000_000
+help_prob : 1
 
 # --- Seeding ---
 seed: 50

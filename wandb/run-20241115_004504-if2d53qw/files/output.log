@@ -1,0 +1,332 @@
+[INFO 00:45:05] my_main *******************
+[INFO 00:45:05] my_main WANDB RUN ID:
+[INFO 00:45:05] my_main if2d53qw
+[INFO 00:45:05] my_main *******************
+[INFO 00:45:05] my_main Beginning training for 3000000 timesteps
+the agent help is switched to true!
+/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/controllers/basic_controller.py:20: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = th.load(self.path)
+the agent help is switched to true!
+[INFO 00:45:05] my_main t_env: 500 / 3000000
+[INFO 00:45:05] my_main Estimated time left: 23 seconds. Time passed: 0 seconds
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+[INFO 00:45:07] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-15 00_45_04.051088
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+[INFO 00:45:44] my_main Recent Stats | t_env:      50000 | Episode:     1000
+advantage_mean:            0.0243	agent_0_return_mean:       0.0020	agent_0_return_std:        0.0282	agent_1_return_mean:       0.0010
+agent_1_return_std:        0.0141	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0084	critic_grad_norm:          0.2341	critic_loss:               0.0049
+ep_length_mean:           50.0000	pg_loss:                   1.5838	pi_max:                    0.4498	q_taken_mean:              0.2308
+target_mean:               0.2551	td_error_abs:              0.0471	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0100	test_agent_3_return_std:   0.0995	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0100
+test_total_return_std:     0.0995	total_return_mean:         0.0040	total_return_std:          0.0481	
+the agent help is switched to true!
+the agent help is switched to true!
+[INFO 00:45:45] my_main t_env: 50500 / 3000000
+[INFO 00:45:45] my_main Estimated time left: 38 minutes, 34 seconds. Time passed: 39 seconds
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+the agent help is switched to true!
+[DEBUG 00:45:54] pymarl Stopping Heartbeat
+[WARNING 00:45:54] pymarl Aborted after 0:00:51!
+Traceback (most recent call last):
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 135, in <module>
+    ex.run_commandline(params)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/experiment.py", line 313, in run_commandline
+    return self.run(
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/experiment.py", line 277, in run
+    run()
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 44, in my_main
+    run(_run, config, _log)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 69, in run
+    run_sequential(args=args, logger=logger)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 218, in run_sequential
+    episode_batch, expertActions, trainingActions, expert_batch, timesteps, terminated_info= runner.run(test_mode=False)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/runners/parallel_runner.py", line 179, in run
+    self.batch.update(
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/components/episode_buffer.py", line 92, in update
+    if mark_filled:
+KeyboardInterrupt

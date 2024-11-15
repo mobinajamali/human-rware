@@ -1,0 +1,16 @@
+{"time":"2024-11-15T00:47:19.081349679-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-15T00:47:19.081357845-07:00","level":"INFO","msg":"created symlink","path":"/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/wandb/run-20241115_004719-e4uqht7o/logs/debug-core.log"}
+{"time":"2024-11-15T00:47:19.183796108-07:00","level":"INFO","msg":"created new stream","id":"e4uqht7o"}
+{"time":"2024-11-15T00:47:19.183837984-07:00","level":"INFO","msg":"stream: started","id":"e4uqht7o"}
+{"time":"2024-11-15T00:47:19.183858442-07:00","level":"INFO","msg":"sender: started","stream_id":"e4uqht7o"}
+{"time":"2024-11-15T00:47:19.183877359-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"e4uqht7o"}}
+{"time":"2024-11-15T00:47:19.183851484-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"e4uqht7o"}}
+{"time":"2024-11-15T00:47:19.406862593-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-15T00:48:44.174329345-07:00","level":"INFO","msg":"stream: closing","id":"e4uqht7o"}
+{"time":"2024-11-15T00:48:44.174360469-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-15T00:48:44.17501862-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-15T00:48:44.595429916-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-15T00:48:44.795674471-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"e4uqht7o"}}
+{"time":"2024-11-15T00:48:44.795749635-07:00","level":"INFO","msg":"sender: closed","stream_id":"e4uqht7o"}
+{"time":"2024-11-15T00:48:44.795734219-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"e4uqht7o"}}
+{"time":"2024-11-15T00:48:44.795892632-07:00","level":"INFO","msg":"stream: closed","id":"e4uqht7o"}

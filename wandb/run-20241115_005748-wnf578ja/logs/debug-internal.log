@@ -1,0 +1,16 @@
+{"time":"2024-11-15T00:57:48.783891254-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-15T00:57:48.783903254-07:00","level":"INFO","msg":"created symlink","path":"/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/wandb/run-20241115_005748-wnf578ja/logs/debug-core.log"}
+{"time":"2024-11-15T00:57:48.886932678-07:00","level":"INFO","msg":"created new stream","id":"wnf578ja"}
+{"time":"2024-11-15T00:57:48.886967636-07:00","level":"INFO","msg":"stream: started","id":"wnf578ja"}
+{"time":"2024-11-15T00:57:48.887007886-07:00","level":"INFO","msg":"sender: started","stream_id":"wnf578ja"}
+{"time":"2024-11-15T00:57:48.88700172-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"wnf578ja"}}
+{"time":"2024-11-15T00:57:48.88711347-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"wnf578ja"}}
+{"time":"2024-11-15T00:57:49.154047609-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-15T00:58:41.151068153-07:00","level":"INFO","msg":"stream: closing","id":"wnf578ja"}
+{"time":"2024-11-15T00:58:41.151091444-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-15T00:58:41.151424151-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-15T00:58:41.619169127-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-15T00:58:41.794723127-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"wnf578ja"}}
+{"time":"2024-11-15T00:58:41.794786752-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"wnf578ja"}}
+{"time":"2024-11-15T00:58:41.794805794-07:00","level":"INFO","msg":"sender: closed","stream_id":"wnf578ja"}
+{"time":"2024-11-15T00:58:41.79493896-07:00","level":"INFO","msg":"stream: closed","id":"wnf578ja"}

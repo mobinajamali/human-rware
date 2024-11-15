@@ -1,0 +1,10318 @@
+[INFO 00:50:13] my_main *******************
+[INFO 00:50:13] my_main WANDB RUN ID:
+[INFO 00:50:13] my_main p3qebnwz
+[INFO 00:50:13] my_main *******************
+[INFO 00:50:13] my_main Beginning training for 3000000 timesteps
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/controllers/basic_controller.py:20: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = th.load(self.path)
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+at t_env: 0, k:30
+the agent help is switched to true!
+false
+[INFO 00:50:14] my_main t_env: 500 / 3000000
+[INFO 00:50:14] my_main Estimated time left: 37 seconds. Time passed: 0 seconds
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[INFO 00:50:15] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-15 00_50_11.990256
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+at t_env: 1500, k:30
+the agent help is switched to true!
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+false
+at t_env: 3000, k:30
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+at t_env: 3000, k:30
+the agent help is switched to true!
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+the agent help is switched to true!
+false
+at t_env: 4500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+at t_env: 6000, k:30
+the agent help is switched to true!
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+the agent help is switched to true!
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+at t_env: 7500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+at t_env: 9000, k:30
+false
+at t_env: 9000, k:30
+the agent help is switched to true!
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+false
+at t_env: 10500, k:30
+the agent help is switched to true!
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+at t_env: 12000, k:30
+false
+at t_env: 12000, k:30
+the agent help is switched to true!
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 13500, k:30
+the agent help is switched to true!
+false
+at t_env: 13500, k:30
+the agent help is switched to true!
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+the agent help is switched to true!
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+the agent help is switched to true!
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+the agent help is switched to true!
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+the agent help is switched to true!
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+the agent help is switched to true!
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+the agent help is switched to true!
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+the agent help is switched to true!
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+at t_env: 13500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+the agent help is switched to true!
+false
+at t_env: 15000, k:30
+the agent help is switched to true!
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+the agent help is switched to true!
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+the agent help is switched to true!
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+the agent help is switched to true!
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+the agent help is switched to true!
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+the agent help is switched to true!
+false
+at t_env: 15000, k:30
+the agent help is switched to true!
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+at t_env: 15000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+false
+at t_env: 16500, k:30
+the agent help is switched to true!
+false
+at t_env: 16500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+the agent help is switched to true!
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+the agent help is switched to true!
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+the agent help is switched to true!
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+the agent help is switched to true!
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+the agent help is switched to true!
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+the agent help is switched to true!
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+the agent help is switched to true!
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+the agent help is switched to true!
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+the agent help is switched to true!
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+at t_env: 18000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+the agent help is switched to true!
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+at t_env: 19500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+the agent help is switched to true!
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+the agent help is switched to true!
+false
+at t_env: 21000, k:30
+the agent help is switched to true!
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+the agent help is switched to true!
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+the agent help is switched to true!
+false
+at t_env: 21000, k:30
+the agent help is switched to true!
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+the agent help is switched to true!
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+the agent help is switched to true!
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+the agent help is switched to true!
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+false
+at t_env: 21000, k:30
+the agent help is switched to true!
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+the agent help is switched to true!
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+the agent help is switched to true!
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+the agent help is switched to true!
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+the agent help is switched to true!
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+the agent help is switched to true!
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+the agent help is switched to true!
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+the agent help is switched to true!
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+the agent help is switched to true!
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+the agent help is switched to true!
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+at t_env: 22500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+false
+at t_env: 24000, k:30
+the agent help is switched to true!
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+the agent help is switched to true!
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+at t_env: 25500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+the agent help is switched to true!
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+at t_env: 27000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+the agent help is switched to true!
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+the agent help is switched to true!
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+the agent help is switched to true!
+false
+at t_env: 28500, k:30
+the agent help is switched to true!
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+the agent help is switched to true!
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+the agent help is switched to true!
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+the agent help is switched to true!
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+the agent help is switched to true!
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+the agent help is switched to true!
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+false
+at t_env: 28500, k:30
+the agent help is switched to true!
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+the agent help is switched to true!
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+the agent help is switched to true!
+false
+at t_env: 30000, k:30
+the agent help is switched to true!
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+the agent help is switched to true!
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+the agent help is switched to true!
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+the agent help is switched to true!
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+the agent help is switched to true!
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+at t_env: 30000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+the agent help is switched to true!
+false
+at t_env: 31500, k:30
+false
+at t_env: 31500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+the agent help is switched to true!
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+the agent help is switched to true!
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+the agent help is switched to true!
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+the agent help is switched to true!
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+the agent help is switched to true!
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+the agent help is switched to true!
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+the agent help is switched to true!
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+the agent help is switched to true!
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+at t_env: 33000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+the agent help is switched to true!
+false
+at t_env: 34500, k:30
+false
+at t_env: 34500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+the agent help is switched to true!
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+the agent help is switched to true!
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+the agent help is switched to true!
+false
+at t_env: 36000, k:30
+the agent help is switched to true!
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+the agent help is switched to true!
+false
+at t_env: 36000, k:30
+the agent help is switched to true!
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+the agent help is switched to true!
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+the agent help is switched to true!
+false
+at t_env: 36000, k:30
+the agent help is switched to true!
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+false
+at t_env: 36000, k:30
+the agent help is switched to true!
+false
+at t_env: 36000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+the agent help is switched to true!
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+at t_env: 37500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 39000, k:30
+the agent help is switched to true!
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+the agent help is switched to true!
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+the agent help is switched to true!
+false
+at t_env: 39000, k:30
+the agent help is switched to true!
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+the agent help is switched to true!
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+the agent help is switched to true!
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+the agent help is switched to true!
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+the agent help is switched to true!
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+at t_env: 39000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+false
+at t_env: 40500, k:30
+the agent help is switched to true!
+false
+at t_env: 40500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+the agent help is switched to true!
+false
+at t_env: 42000, k:30
+the agent help is switched to true!
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+the agent help is switched to true!
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+the agent help is switched to true!
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+the agent help is switched to true!
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+the agent help is switched to true!
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+the agent help is switched to true!
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+at t_env: 42000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+the agent help is switched to true!
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+the agent help is switched to true!
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+the agent help is switched to true!
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+the agent help is switched to true!
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+the agent help is switched to true!
+false
+at t_env: 43500, k:30
+the agent help is switched to true!
+false
+at t_env: 43500, k:30
+the agent help is switched to true!
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+the agent help is switched to true!
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+the agent help is switched to true!
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+at t_env: 43500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+the agent help is switched to true!
+false
+at t_env: 45000, k:30
+the agent help is switched to true!
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+the agent help is switched to true!
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+the agent help is switched to true!
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+the agent help is switched to true!
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+the agent help is switched to true!
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+the agent help is switched to true!
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+the agent help is switched to true!
+false
+at t_env: 45000, k:30
+the agent help is switched to true!
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+at t_env: 45000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+the agent help is switched to true!
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+at t_env: 46500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+the agent help is switched to true!
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+the agent help is switched to true!
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+the agent help is switched to true!
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+the agent help is switched to true!
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+the agent help is switched to true!
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+the agent help is switched to true!
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+the agent help is switched to true!
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+the agent help is switched to true!
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+at t_env: 48000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+the agent help is switched to true!
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+at t_env: 49500, k:30
+false
+[INFO 00:50:51] my_main Recent Stats | t_env:      50000 | Episode:     1000
+advantage_mean:           -0.0032	agent_0_return_mean:       0.0000	agent_0_return_std:        0.0000	agent_1_return_mean:       0.0010
+agent_1_return_std:        0.0141	agent_2_return_mean:       0.0010	agent_2_return_std:        0.0141	agent_3_return_mean:       0.0000
+agent_3_return_std:        0.0000	agent_grad_norm:           0.0089	critic_grad_norm:          0.0385	critic_loss:               0.0004
+ep_length_mean:           50.0000	pg_loss:                   0.6450	pi_max:                    0.8010	q_taken_mean:              0.1862
+target_mean:               0.1830	td_error_abs:              0.0134	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0000	test_agent_3_return_std:   0.0000	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0000
+test_total_return_std:     0.0000	total_return_mean:         0.0020	total_return_std:          0.0199	
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+[INFO 00:50:52] my_main t_env: 50500 / 3000000
+[INFO 00:50:52] my_main Estimated time left: 37 minutes, 27 seconds. Time passed: 38 seconds
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 51000, k:30
+the agent help is switched to true!
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+the agent help is switched to true!
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+the agent help is switched to true!
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+the agent help is switched to true!
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+the agent help is switched to true!
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+the agent help is switched to true!
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+the agent help is switched to true!
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+the agent help is switched to true!
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+the agent help is switched to true!
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+the agent help is switched to true!
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+at t_env: 51000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+the agent help is switched to true!
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+at t_env: 52500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 54000, k:30
+the agent help is switched to true!
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+the agent help is switched to true!
+false
+at t_env: 54000, k:30
+the agent help is switched to true!
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+the agent help is switched to true!
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+the agent help is switched to true!
+false
+at t_env: 54000, k:30
+the agent help is switched to true!
+false
+at t_env: 54000, k:30
+the agent help is switched to true!
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+the agent help is switched to true!
+false
+at t_env: 54000, k:30
+false
+at t_env: 54000, k:30
+the agent help is switched to true!
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+the agent help is switched to true!
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+the agent help is switched to true!
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+the agent help is switched to true!
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+the agent help is switched to true!
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+the agent help is switched to true!
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+the agent help is switched to true!
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+the agent help is switched to true!
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+the agent help is switched to true!
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+at t_env: 55500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+the agent help is switched to true!
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+at t_env: 57000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+the agent help is switched to true!
+false
+at t_env: 58500, k:30
+false
+at t_env: 58500, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+the agent help is switched to true!
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+the agent help is switched to true!
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+the agent help is switched to true!
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+the agent help is switched to true!
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+the agent help is switched to true!
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+the agent help is switched to true!
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+the agent help is switched to true!
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+the agent help is switched to true!
+false
+at t_env: 60000, k:30
+the agent help is switched to true!
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+the agent help is switched to true!
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+at t_env: 60000, k:30
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+false
+[DEBUG 00:51:01] pymarl Stopping Heartbeat
+[WARNING 00:51:01] pymarl Aborted after 0:00:49!
+Traceback (most recent call last):
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 135, in <module>
+    ex.run_commandline(params)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/experiment.py", line 313, in run_commandline
+    return self.run(
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/experiment.py", line 277, in run
+    run()
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 44, in my_main
+    run(_run, config, _log)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 69, in run
+    run_sequential(args=args, logger=logger)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 242, in run_sequential
+    learner.train(
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/learners/ppo_learner.py", line 109, in train
+    agent_outs, expert_agent_outs  = self.mac.forward(batch, agent_help, t=t)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/controllers/basic_controller.py", line 53, in forward
+    agent_outs, self.hidden_states = self.agent(agent_inputs, self.hidden_states)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/modules/agents/rnn_agent.py", line 26, in forward
+    x = F.relu(self.fc1(inputs))
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1918, in __getattr__
+    def __getattr__(self, name: str) -> Any:
+KeyboardInterrupt

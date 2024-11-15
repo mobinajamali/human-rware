@@ -1,0 +1,16 @@
+{"time":"2024-11-15T01:16:35.817595297-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-15T01:16:35.817602505-07:00","level":"INFO","msg":"created symlink","path":"/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/wandb/run-20241115_011635-mujexsau/logs/debug-core.log"}
+{"time":"2024-11-15T01:16:35.919948929-07:00","level":"INFO","msg":"created new stream","id":"mujexsau"}
+{"time":"2024-11-15T01:16:35.919988096-07:00","level":"INFO","msg":"stream: started","id":"mujexsau"}
+{"time":"2024-11-15T01:16:35.92024331-07:00","level":"INFO","msg":"sender: started","stream_id":"mujexsau"}
+{"time":"2024-11-15T01:16:35.920255394-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"mujexsau"}}
+{"time":"2024-11-15T01:16:35.920255019-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"mujexsau"}}
+{"time":"2024-11-15T01:16:36.185815582-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-15T01:19:52.811821995-07:00","level":"INFO","msg":"stream: closing","id":"mujexsau"}
+{"time":"2024-11-15T01:19:52.811849453-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-15T01:19:52.812117205-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-15T01:19:53.237081851-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-15T01:19:53.395317978-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"mujexsau"}}
+{"time":"2024-11-15T01:19:53.395408145-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"mujexsau"}}
+{"time":"2024-11-15T01:19:53.395431479-07:00","level":"INFO","msg":"sender: closed","stream_id":"mujexsau"}
+{"time":"2024-11-15T01:19:53.395502854-07:00","level":"INFO","msg":"stream: closed","id":"mujexsau"}

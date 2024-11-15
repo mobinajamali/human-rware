@@ -1,0 +1,563 @@
+[INFO 01:20:54] my_main *******************
+[INFO 01:20:54] my_main WANDB RUN ID:
+[INFO 01:20:54] my_main j2deuwmq
+[INFO 01:20:54] my_main *******************
+[INFO 01:20:55] my_main Beginning training for 3000000 timesteps
+agent help is true at t: 0, t_env: 0 with prob: 1.0
+/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/controllers/basic_controller.py:20: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = th.load(self.path)
+agent help is true at t: 30, t_env: 0 with prob: 1.0
+[INFO 01:20:55] my_main t_env: 500 / 3000000
+[INFO 01:20:55] my_main Estimated time left: 22 seconds. Time passed: 0 seconds
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999995
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999989999999
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999984999999
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999979999998
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999974999998
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999969999998
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999964999997
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999959999997
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999954999996
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999949999996
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999944999995
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999939999995
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999934999995
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999929999994
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999924999994
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999919999993
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999914999993
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999909999993
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999904999992
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999899999992
+[INFO 01:20:56] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-15 01_20_53.610102
+agent help is true at t: 0, t_env: 500 with prob: 0.9999999894999991
+agent help is true at t: 30, t_env: 500 with prob: 0.9999999889999991
+agent help is true at t: 0, t_env: 1000 with prob: 0.9999999879999991
+agent help is true at t: 30, t_env: 1000 with prob: 0.9999999869999991
+agent help is true at t: 0, t_env: 1500 with prob: 0.9999999854999991
+agent help is true at t: 30, t_env: 1500 with prob: 0.9999999839999991
+agent help is true at t: 0, t_env: 2000 with prob: 0.9999999819999992
+agent help is true at t: 30, t_env: 2000 with prob: 0.9999999799999992
+agent help is true at t: 0, t_env: 2500 with prob: 0.9999999774999992
+agent help is true at t: 30, t_env: 2500 with prob: 0.9999999749999994
+agent help is true at t: 0, t_env: 3000 with prob: 0.9999999719999995
+agent help is true at t: 30, t_env: 3000 with prob: 0.9999999689999995
+agent help is true at t: 0, t_env: 3500 with prob: 0.9999999654999997
+agent help is true at t: 30, t_env: 3500 with prob: 0.9999999619999999
+agent help is true at t: 0, t_env: 4000 with prob: 0.999999958
+agent help is true at t: 30, t_env: 4000 with prob: 0.9999999540000002
+agent help is true at t: 0, t_env: 4500 with prob: 0.9999999495000004
+agent help is true at t: 30, t_env: 4500 with prob: 0.9999999450000006
+agent help is true at t: 0, t_env: 5000 with prob: 0.9999999400000008
+agent help is true at t: 30, t_env: 5000 with prob: 0.9999999350000012
+agent help is true at t: 0, t_env: 5500 with prob: 0.9999999295000015
+agent help is true at t: 30, t_env: 5500 with prob: 0.9999999240000018
+agent help is true at t: 0, t_env: 6000 with prob: 0.9999999180000023
+agent help is true at t: 30, t_env: 6000 with prob: 0.9999999120000028
+agent help is true at t: 0, t_env: 6500 with prob: 0.9999999055000034
+agent help is true at t: 30, t_env: 6500 with prob: 0.9999998990000041
+agent help is true at t: 0, t_env: 7000 with prob: 0.9999998920000047
+agent help is true at t: 30, t_env: 7000 with prob: 0.9999998850000055
+agent help is true at t: 0, t_env: 7500 with prob: 0.9999998775000064
+agent help is true at t: 30, t_env: 7500 with prob: 0.9999998700000073
+agent help is true at t: 0, t_env: 8000 with prob: 0.9999998620000083
+agent help is true at t: 30, t_env: 8000 with prob: 0.9999998540000095
+agent help is true at t: 0, t_env: 8500 with prob: 0.9999998455000108
+agent help is true at t: 30, t_env: 8500 with prob: 0.9999998370000122
+agent help is true at t: 0, t_env: 9000 with prob: 0.9999998280000136
+agent help is true at t: 30, t_env: 9000 with prob: 0.9999998190000152
+agent help is true at t: 0, t_env: 9500 with prob: 0.9999998095000169
+agent help is true at t: 30, t_env: 9500 with prob: 0.9999998000000186
+agent help is true at t: 0, t_env: 10000 with prob: 0.9999997900000207
+agent help is true at t: 30, t_env: 10000 with prob: 0.9999997800000229
+agent help is true at t: 0, t_env: 10500 with prob: 0.9999997695000252
+agent help is true at t: 30, t_env: 10500 with prob: 0.9999997590000277
+agent help is true at t: 0, t_env: 11000 with prob: 0.9999997480000304
+agent help is true at t: 30, t_env: 11000 with prob: 0.9999997370000333
+agent help is true at t: 0, t_env: 11500 with prob: 0.9999997255000364
+agent help is true at t: 30, t_env: 11500 with prob: 0.9999997140000395
+agent help is true at t: 0, t_env: 12000 with prob: 0.9999997020000431
+agent help is true at t: 30, t_env: 12000 with prob: 0.9999996900000467
+agent help is true at t: 0, t_env: 12500 with prob: 0.9999996775000507
+agent help is true at t: 30, t_env: 12500 with prob: 0.9999996650000548
+agent help is true at t: 0, t_env: 13000 with prob: 0.9999996520000591
+agent help is true at t: 30, t_env: 13000 with prob: 0.9999996390000637
+agent help is true at t: 0, t_env: 13500 with prob: 0.9999996255000687
+agent help is true at t: 30, t_env: 13500 with prob: 0.9999996120000739
+agent help is true at t: 0, t_env: 14000 with prob: 0.9999995980000794
+agent help is true at t: 30, t_env: 14000 with prob: 0.9999995840000852
+agent help is true at t: 0, t_env: 14500 with prob: 0.9999995695000913
+agent help is true at t: 30, t_env: 14500 with prob: 0.9999995550000976
+agent help is true at t: 0, t_env: 15000 with prob: 0.9999995400001044
+agent help is true at t: 30, t_env: 15000 with prob: 0.9999995250001114
+agent help is true at t: 0, t_env: 15500 with prob: 0.9999995095001188
+agent help is true at t: 30, t_env: 15500 with prob: 0.9999994940001266
+agent help is true at t: 0, t_env: 16000 with prob: 0.9999994780001348
+agent help is true at t: 30, t_env: 16000 with prob: 0.9999994620001432
+agent help is true at t: 0, t_env: 16500 with prob: 0.9999994455001523
+agent help is true at t: 30, t_env: 16500 with prob: 0.9999994290001616
+agent help is true at t: 0, t_env: 17000 with prob: 0.9999994120001714
+agent help is true at t: 30, t_env: 17000 with prob: 0.9999993950001815
+agent help is true at t: 0, t_env: 17500 with prob: 0.9999993775001922
+agent help is true at t: 30, t_env: 17500 with prob: 0.9999993600002032
+agent help is true at t: 0, t_env: 18000 with prob: 0.9999993420002149
+agent help is true at t: 30, t_env: 18000 with prob: 0.999999324000227
+agent help is true at t: 0, t_env: 18500 with prob: 0.9999993055002396
+agent help is true at t: 30, t_env: 18500 with prob: 0.9999992870002526
+agent help is true at t: 0, t_env: 19000 with prob: 0.9999992680002664
+agent help is true at t: 30, t_env: 19000 with prob: 0.9999992490002805
+agent help is true at t: 0, t_env: 19500 with prob: 0.9999992295002953
+agent help is true at t: 30, t_env: 19500 with prob: 0.9999992100003104
+agent help is true at t: 0, t_env: 20000 with prob: 0.9999991900003264
+agent help is true at t: 30, t_env: 20000 with prob: 0.9999991700003429
+agent help is true at t: 0, t_env: 20500 with prob: 0.9999991495003601
+agent help is true at t: 30, t_env: 20500 with prob: 0.9999991290003777
+agent help is true at t: 0, t_env: 21000 with prob: 0.9999991080003963
+agent help is true at t: 30, t_env: 21000 with prob: 0.9999990870004153
+agent help is true at t: 0, t_env: 21500 with prob: 0.9999990655004352
+agent help is true at t: 30, t_env: 21500 with prob: 0.9999990440004555
+agent help is true at t: 0, t_env: 22000 with prob: 0.9999990220004767
+agent help is true at t: 30, t_env: 22000 with prob: 0.9999990000004986
+agent help is true at t: 0, t_env: 22500 with prob: 0.9999989775005214
+agent help is true at t: 30, t_env: 22500 with prob: 0.9999989550005446
+agent help is true at t: 0, t_env: 23000 with prob: 0.9999989320005689
+agent help is true at t: 30, t_env: 23000 with prob: 0.9999989090005937
+agent help is true at t: 0, t_env: 23500 with prob: 0.9999988855006197
+agent help is true at t: 30, t_env: 23500 with prob: 0.9999988620006461
+agent help is true at t: 0, t_env: 24000 with prob: 0.9999988380006737
+agent help is true at t: 30, t_env: 24000 with prob: 0.9999988140007018
+agent help is true at t: 0, t_env: 24500 with prob: 0.9999987895007312
+agent help is true at t: 30, t_env: 24500 with prob: 0.9999987650007611
+agent help is true at t: 0, t_env: 25000 with prob: 0.9999987400007923
+agent help is true at t: 30, t_env: 25000 with prob: 0.999998715000824
+agent help is true at t: 0, t_env: 25500 with prob: 0.9999986895008571
+agent help is true at t: 30, t_env: 25500 with prob: 0.9999986640008909
+agent help is true at t: 0, t_env: 26000 with prob: 0.9999986380009259
+agent help is true at t: 30, t_env: 26000 with prob: 0.9999986120009616
+agent help is true at t: 0, t_env: 26500 with prob: 0.9999985855009987
+agent help is true at t: 30, t_env: 26500 with prob: 0.9999985590010366
+agent help is true at t: 0, t_env: 27000 with prob: 0.9999985320010758
+agent help is true at t: 30, t_env: 27000 with prob: 0.9999985050011158
+agent help is true at t: 0, t_env: 27500 with prob: 0.9999984775011572
+agent help is true at t: 30, t_env: 27500 with prob: 0.9999984500011995
+agent help is true at t: 0, t_env: 28000 with prob: 0.9999984220012432
+agent help is true at t: 30, t_env: 28000 with prob: 0.9999983940012878
+agent help is true at t: 0, t_env: 28500 with prob: 0.9999983655013339
+agent help is true at t: 30, t_env: 28500 with prob: 0.999998337001381
+agent help is true at t: 0, t_env: 29000 with prob: 0.9999983080014295
+agent help is true at t: 30, t_env: 29000 with prob: 0.999998279001479
+agent help is true at t: 0, t_env: 29500 with prob: 0.9999982495015302
+agent help is true at t: 30, t_env: 29500 with prob: 0.9999982200015822
+agent help is true at t: 0, t_env: 30000 with prob: 0.999998190001636
+agent help is true at t: 30, t_env: 30000 with prob: 0.9999981600016907
+agent help is true at t: 0, t_env: 30500 with prob: 0.9999981295017473
+agent help is true at t: 30, t_env: 30500 with prob: 0.9999980990018048
+agent help is true at t: 0, t_env: 31000 with prob: 0.9999980680018642
+agent help is true at t: 30, t_env: 31000 with prob: 0.9999980370019245
+agent help is true at t: 0, t_env: 31500 with prob: 0.9999980055019868
+agent help is true at t: 30, t_env: 31500 with prob: 0.9999979740020501
+agent help is true at t: 0, t_env: 32000 with prob: 0.9999979420021154
+agent help is true at t: 30, t_env: 32000 with prob: 0.9999979100021817
+agent help is true at t: 0, t_env: 32500 with prob: 0.9999978775022502
+agent help is true at t: 30, t_env: 32500 with prob: 0.9999978450023197
+agent help is true at t: 0, t_env: 33000 with prob: 0.9999978120023914
+agent help is true at t: 30, t_env: 33000 with prob: 0.999997779002464
+agent help is true at t: 0, t_env: 33500 with prob: 0.999997745502539
+agent help is true at t: 30, t_env: 33500 with prob: 0.999997712002615
+agent help is true at t: 0, t_env: 34000 with prob: 0.9999976780026935
+agent help is true at t: 30, t_env: 34000 with prob: 0.999997644002773
+agent help is true at t: 0, t_env: 34500 with prob: 0.9999976095028549
+agent help is true at t: 30, t_env: 34500 with prob: 0.999997575002938
+agent help is true at t: 0, t_env: 35000 with prob: 0.9999975400030234
+agent help is true at t: 30, t_env: 35000 with prob: 0.9999975050031102
+agent help is true at t: 0, t_env: 35500 with prob: 0.9999974695031995
+agent help is true at t: 30, t_env: 35500 with prob: 0.9999974340032899
+agent help is true at t: 0, t_env: 36000 with prob: 0.9999973980033829
+agent help is true at t: 30, t_env: 36000 with prob: 0.9999973620034773
+agent help is true at t: 0, t_env: 36500 with prob: 0.9999973255035742
+agent help is true at t: 30, t_env: 36500 with prob: 0.9999972890036725
+agent help is true at t: 0, t_env: 37000 with prob: 0.9999972520037734
+agent help is true at t: 30, t_env: 37000 with prob: 0.9999972150038758
+agent help is true at t: 0, t_env: 37500 with prob: 0.999997177503981
+agent help is true at t: 30, t_env: 37500 with prob: 0.9999971400040875
+agent help is true at t: 0, t_env: 38000 with prob: 0.9999971020041969
+agent help is true at t: 30, t_env: 38000 with prob: 0.9999970640043078
+agent help is true at t: 0, t_env: 38500 with prob: 0.9999970255044215
+agent help is true at t: 30, t_env: 38500 with prob: 0.9999969870045367
+agent help is true at t: 0, t_env: 39000 with prob: 0.9999969480046549
+agent help is true at t: 30, t_env: 39000 with prob: 0.9999969090047747
+agent help is true at t: 0, t_env: 39500 with prob: 0.9999968695048975
+agent help is true at t: 30, t_env: 39500 with prob: 0.9999968300050219
+agent help is true at t: 0, t_env: 40000 with prob: 0.9999967900051495
+agent help is true at t: 30, t_env: 40000 with prob: 0.9999967500052788
+agent help is true at t: 0, t_env: 40500 with prob: 0.9999967095054113
+agent help is true at t: 30, t_env: 40500 with prob: 0.9999966690055454
+agent help is true at t: 0, t_env: 41000 with prob: 0.9999966280056828
+agent help is true at t: 30, t_env: 41000 with prob: 0.9999965870058218
+agent help is true at t: 0, t_env: 41500 with prob: 0.9999965455059644
+agent help is true at t: 30, t_env: 41500 with prob: 0.9999965040061086
+agent help is true at t: 0, t_env: 42000 with prob: 0.9999964620062564
+agent help is true at t: 30, t_env: 42000 with prob: 0.9999964200064058
+agent help is true at t: 0, t_env: 42500 with prob: 0.9999963775065588
+agent help is true at t: 30, t_env: 42500 with prob: 0.9999963350067137
+agent help is true at t: 0, t_env: 43000 with prob: 0.9999962920068721
+agent help is true at t: 30, t_env: 43000 with prob: 0.9999962490070324
+agent help is true at t: 0, t_env: 43500 with prob: 0.9999962055071966
+agent help is true at t: 30, t_env: 43500 with prob: 0.9999961620073626
+agent help is true at t: 0, t_env: 44000 with prob: 0.9999961180075325
+agent help is true at t: 30, t_env: 44000 with prob: 0.9999960740077043
+agent help is true at t: 0, t_env: 44500 with prob: 0.99999602950788
+agent help is true at t: 30, t_env: 44500 with prob: 0.9999959850080576
+agent help is true at t: 0, t_env: 45000 with prob: 0.9999959400082393
+agent help is true at t: 30, t_env: 45000 with prob: 0.9999958950084231
+agent help is true at t: 0, t_env: 45500 with prob: 0.9999958495086109
+agent help is true at t: 30, t_env: 45500 with prob: 0.9999958040088007
+agent help is true at t: 0, t_env: 46000 with prob: 0.9999957580089949
+agent help is true at t: 30, t_env: 46000 with prob: 0.9999957120091911
+agent help is true at t: 0, t_env: 46500 with prob: 0.9999956655093916
+agent help is true at t: 30, t_env: 46500 with prob: 0.9999956190095941
+agent help is true at t: 0, t_env: 47000 with prob: 0.9999955720098012
+agent help is true at t: 30, t_env: 47000 with prob: 0.9999955250100104
+agent help is true at t: 0, t_env: 47500 with prob: 0.9999954775102242
+agent help is true at t: 30, t_env: 47500 with prob: 0.9999954300104402
+agent help is true at t: 0, t_env: 48000 with prob: 0.9999953820106607
+agent help is true at t: 30, t_env: 48000 with prob: 0.9999953340108836
+agent help is true at t: 0, t_env: 48500 with prob: 0.999995285511111
+agent help is true at t: 30, t_env: 48500 with prob: 0.999995237011341
+agent help is true at t: 0, t_env: 49000 with prob: 0.9999951880115755
+agent help is true at t: 30, t_env: 49000 with prob: 0.9999951390118125
+agent help is true at t: 0, t_env: 49500 with prob: 0.9999950895120543
+agent help is true at t: 30, t_env: 49500 with prob: 0.9999950400122986
+[INFO 01:21:34] my_main Recent Stats | t_env:      50000 | Episode:     1000
+advantage_mean:            0.0243	agent_0_return_mean:       0.0020	agent_0_return_std:        0.0282	agent_1_return_mean:       0.0010
+agent_1_return_std:        0.0141	agent_2_return_mean:       0.0000	agent_2_return_std:        0.0000	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0084	critic_grad_norm:          0.2341	critic_loss:               0.0049
+ep_length_mean:           50.0000	pg_loss:                   1.5838	pi_max:                    0.4498	q_taken_mean:              0.2308
+target_mean:               0.2551	td_error_abs:              0.0471	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0100	test_agent_3_return_std:   0.0995	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0100
+test_total_return_std:     0.0995	total_return_mean:         0.0040	total_return_std:          0.0481	
+agent help is true at t: 0, t_env: 50000 with prob: 0.9999949900125479
+agent help is true at t: 30, t_env: 50000 with prob: 0.9999949400127996
+[INFO 01:21:34] my_main t_env: 50500 / 3000000
+[INFO 01:21:34] my_main Estimated time left: 38 minutes, 40 seconds. Time passed: 39 seconds
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999948895130565
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999948390133159
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999947885135778
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999947380138423
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999946875141092
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999946370143787
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999945865146508
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999945360149254
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999944855152025
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999944350154822
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999943845157645
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999943340160493
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999942835163367
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999942330166266
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999941825169191
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999941320172141
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999940815175117
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999940310178118
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999939805181145
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999939300184197
+agent help is true at t: 0, t_env: 50500 with prob: 0.9999938795187275
+agent help is true at t: 30, t_env: 50500 with prob: 0.9999938290190379
+agent help is true at t: 0, t_env: 51000 with prob: 0.999993778019354
+agent help is true at t: 30, t_env: 51000 with prob: 0.9999937270196726
+agent help is true at t: 0, t_env: 51500 with prob: 0.999993675519997
+agent help is true at t: 30, t_env: 51500 with prob: 0.999993624020324
+agent help is true at t: 0, t_env: 52000 with prob: 0.9999935720206569
+agent help is true at t: 30, t_env: 52000 with prob: 0.9999935200209925
+agent help is true at t: 0, t_env: 52500 with prob: 0.9999934675213341
+agent help is true at t: 30, t_env: 52500 with prob: 0.9999934150216785
+agent help is true at t: 0, t_env: 53000 with prob: 0.9999933620220289
+agent help is true at t: 30, t_env: 53000 with prob: 0.9999933090223821
+agent help is true at t: 0, t_env: 53500 with prob: 0.9999932555227415
+agent help is true at t: 30, t_env: 53500 with prob: 0.9999932020231038
+agent help is true at t: 0, t_env: 54000 with prob: 0.9999931480234723
+agent help is true at t: 30, t_env: 54000 with prob: 0.9999930940238437
+agent help is true at t: 0, t_env: 54500 with prob: 0.9999930395242216
+agent help is true at t: 30, t_env: 54500 with prob: 0.9999929850246024
+agent help is true at t: 0, t_env: 55000 with prob: 0.9999929300249898
+agent help is true at t: 30, t_env: 55000 with prob: 0.9999928750253801
+agent help is true at t: 0, t_env: 55500 with prob: 0.9999928195257771
+agent help is true at t: 30, t_env: 55500 with prob: 0.9999927640261772
+agent help is true at t: 0, t_env: 56000 with prob: 0.999992708026584
+agent help is true at t: 30, t_env: 56000 with prob: 0.999992652026994
+agent help is true at t: 0, t_env: 56500 with prob: 0.9999925955274106
+agent help is true at t: 30, t_env: 56500 with prob: 0.9999925390278305
+agent help is true at t: 0, t_env: 57000 with prob: 0.9999924820282574
+agent help is true at t: 30, t_env: 57000 with prob: 0.9999924250286876
+agent help is true at t: 0, t_env: 57500 with prob: 0.9999923675291248
+agent help is true at t: 30, t_env: 57500 with prob: 0.9999923100295653
+agent help is true at t: 0, t_env: 58000 with prob: 0.999992252030013
+agent help is true at t: 30, t_env: 58000 with prob: 0.999992194030464
+agent help is true at t: 0, t_env: 58500 with prob: 0.9999921355309224
+agent help is true at t: 30, t_env: 58500 with prob: 0.9999920770313842
+agent help is true at t: 0, t_env: 59000 with prob: 0.9999920180318533
+agent help is true at t: 30, t_env: 59000 with prob: 0.9999919590323261
+agent help is true at t: 0, t_env: 59500 with prob: 0.9999918995328062
+agent help is true at t: 30, t_env: 59500 with prob: 0.9999918400332899
+agent help is true at t: 0, t_env: 60000 with prob: 0.9999917800337813
+agent help is true at t: 30, t_env: 60000 with prob: 0.9999917200342763
+agent help is true at t: 0, t_env: 60500 with prob: 0.9999916595347791
+agent help is true at t: 30, t_env: 60500 with prob: 0.9999915990352856
+agent help is true at t: 0, t_env: 61000 with prob: 0.9999915380357999
+agent help is true at t: 30, t_env: 61000 with prob: 0.9999914770363179
+agent help is true at t: 0, t_env: 61500 with prob: 0.9999914155368439
+agent help is true at t: 30, t_env: 61500 with prob: 0.9999913540373737
+agent help is true at t: 0, t_env: 62000 with prob: 0.9999912920379117
+agent help is true at t: 30, t_env: 62000 with prob: 0.9999912300384536
+agent help is true at t: 0, t_env: 62500 with prob: 0.9999911675390036
+agent help is true at t: 30, t_env: 62500 with prob: 0.9999911050395576
+agent help is true at t: 0, t_env: 63000 with prob: 0.9999910420401199
+agent help is true at t: 30, t_env: 63000 with prob: 0.9999909790406862
+agent help is true at t: 0, t_env: 63500 with prob: 0.9999909155412611
+agent help is true at t: 30, t_env: 63500 with prob: 0.9999908520418399
+agent help is true at t: 0, t_env: 64000 with prob: 0.9999907880424274
+agent help is true at t: 30, t_env: 64000 with prob: 0.9999907240430189
+agent help is true at t: 0, t_env: 64500 with prob: 0.9999906595436193
+agent help is true at t: 30, t_env: 64500 with prob: 0.9999905950442238
+agent help is true at t: 0, t_env: 65000 with prob: 0.9999905300448372
+agent help is true at t: 30, t_env: 65000 with prob: 0.9999904650454547
+agent help is true at t: 0, t_env: 65500 with prob: 0.9999903995460814
+agent help is true at t: 30, t_env: 65500 with prob: 0.9999903340467123
+agent help is true at t: 0, t_env: 66000 with prob: 0.9999902680473525
+agent help is true at t: 30, t_env: 66000 with prob: 0.9999902020479969
+agent help is true at t: 0, t_env: 66500 with prob: 0.9999901355486507
+agent help is true at t: 30, t_env: 66500 with prob: 0.9999900690493089
+agent help is true at t: 0, t_env: 67000 with prob: 0.9999900020499765
+agent help is true at t: 30, t_env: 67000 with prob: 0.9999899350506486
+agent help is true at t: 0, t_env: 67500 with prob: 0.9999898675513302
+agent help is true at t: 30, t_env: 67500 with prob: 0.9999898000520164
+agent help is true at t: 0, t_env: 68000 with prob: 0.9999897320527124
+agent help is true at t: 30, t_env: 68000 with prob: 0.9999896640534129
+agent help is true at t: 0, t_env: 68500 with prob: 0.9999895955541233
+agent help is true at t: 30, t_env: 68500 with prob: 0.9999895270548382
+agent help is true at t: 0, t_env: 69000 with prob: 0.9999894580555633
+agent help is true at t: 30, t_env: 69000 with prob: 0.9999893890562931
+agent help is true at t: 0, t_env: 69500 with prob: 0.999989319557033
+agent help is true at t: 30, t_env: 69500 with prob: 0.9999892500577777
+agent help is true at t: 0, t_env: 70000 with prob: 0.9999891800585327
+agent help is true at t: 30, t_env: 70000 with prob: 0.9999891100592925
+agent help is true at t: 0, t_env: 70500 with prob: 0.9999890395600627
+agent help is true at t: 30, t_env: 70500 with prob: 0.9999889690608379
+agent help is true at t: 0, t_env: 71000 with prob: 0.9999888980616236
+agent help is true at t: 30, t_env: 71000 with prob: 0.9999888270624144
+agent help is true at t: 0, t_env: 71500 with prob: 0.9999887555632159
+agent help is true at t: 30, t_env: 71500 with prob: 0.9999886840640224
+agent help is true at t: 0, t_env: 72000 with prob: 0.9999886120648398
+agent help is true at t: 30, t_env: 72000 with prob: 0.9999885400656623
+agent help is true at t: 0, t_env: 72500 with prob: 0.9999884675664958
+agent help is true at t: 30, t_env: 72500 with prob: 0.9999883950673346
+agent help is true at t: 0, t_env: 73000 with prob: 0.9999883220681844
+agent help is true at t: 30, t_env: 73000 with prob: 0.9999882490690396
+agent help is true at t: 0, t_env: 73500 with prob: 0.9999881755699059
+agent help is true at t: 30, t_env: 73500 with prob: 0.9999881020707777
+agent help is true at t: 0, t_env: 74000 with prob: 0.9999880280716609
+agent help is true at t: 30, t_env: 74000 with prob: 0.9999879540725496
+agent help is true at t: 0, t_env: 74500 with prob: 0.9999878795734498
+agent help is true at t: 30, t_env: 74500 with prob: 0.9999878050743556
+agent help is true at t: 0, t_env: 75000 with prob: 0.999987730075273
+agent help is true at t: 30, t_env: 75000 with prob: 0.999987655076196
+agent help is true at t: 0, t_env: 75500 with prob: 0.9999875795771309
+agent help is true at t: 30, t_env: 75500 with prob: 0.9999875040780715
+agent help is true at t: 0, t_env: 76000 with prob: 0.9999874280790241
+agent help is true at t: 30, t_env: 76000 with prob: 0.9999873520799825
+agent help is true at t: 0, t_env: 76500 with prob: 0.9999872755809529
+agent help is true at t: 30, t_env: 76500 with prob: 0.9999871990819292
+agent help is true at t: 0, t_env: 77000 with prob: 0.9999871220829178
+agent help is true at t: 30, t_env: 77000 with prob: 0.9999870450839125
+agent help is true at t: 0, t_env: 77500 with prob: 0.9999869675849195
+agent help is true at t: 30, t_env: 77500 with prob: 0.9999868900859324
+agent help is true at t: 0, t_env: 78000 with prob: 0.9999868120869582
+agent help is true at t: 30, t_env: 78000 with prob: 0.9999867340879899
+agent help is true at t: 0, t_env: 78500 with prob: 0.9999866555890343
+agent help is true at t: 30, t_env: 78500 with prob: 0.9999865770900849
+agent help is true at t: 0, t_env: 79000 with prob: 0.9999864980911484
+agent help is true at t: 30, t_env: 79000 with prob: 0.9999864190922182
+agent help is true at t: 0, t_env: 79500 with prob: 0.9999863395933011
+agent help is true at t: 30, t_env: 79500 with prob: 0.9999862600943903
+agent help is true at t: 0, t_env: 80000 with prob: 0.9999861800954927
+agent help is true at t: 30, t_env: 80000 with prob: 0.9999861000966014
+agent help is true at t: 0, t_env: 80500 with prob: 0.9999860195977236
+agent help is true at t: 30, t_env: 80500 with prob: 0.9999859390988523
+agent help is true at t: 0, t_env: 81000 with prob: 0.9999858580999945
+agent help is true at t: 30, t_env: 81000 with prob: 0.9999857771011433
+agent help is true at t: 0, t_env: 81500 with prob: 0.9999856956023059
+agent help is true at t: 30, t_env: 81500 with prob: 0.9999856141034751
+agent help is true at t: 0, t_env: 82000 with prob: 0.999985532104658
+agent help is true at t: 30, t_env: 82000 with prob: 0.9999854501058477
+agent help is true at t: 0, t_env: 82500 with prob: 0.9999853676070515
+agent help is true at t: 30, t_env: 82500 with prob: 0.999985285108262
+agent help is true at t: 0, t_env: 83000 with prob: 0.9999852021094868
+agent help is true at t: 30, t_env: 83000 with prob: 0.9999851191107185
+agent help is true at t: 0, t_env: 83500 with prob: 0.9999850356119646
+agent help is true at t: 30, t_env: 83500 with prob: 0.9999849521132177
+agent help is true at t: 0, t_env: 84000 with prob: 0.9999848681144852
+agent help is true at t: 30, t_env: 84000 with prob: 0.9999847841157598
+agent help is true at t: 0, t_env: 84500 with prob: 0.999984699617049
+agent help is true at t: 30, t_env: 84500 with prob: 0.9999846151183455
+agent help is true at t: 0, t_env: 85000 with prob: 0.9999845301196568
+agent help is true at t: 30, t_env: 85000 with prob: 0.9999844451209754
+agent help is true at t: 0, t_env: 85500 with prob: 0.999984359622309
+agent help is true at t: 30, t_env: 85500 with prob: 0.99998427412365
+agent help is true at t: 0, t_env: 86000 with prob: 0.9999841881250061
+agent help is true at t: 30, t_env: 86000 with prob: 0.9999841021263696
+agent help is true at t: 0, t_env: 86500 with prob: 0.9999840156277484
+agent help is true at t: 30, t_env: 86500 with prob: 0.9999839291291348
+agent help is true at t: 0, t_env: 87000 with prob: 0.9999838421305368
+agent help is true at t: 30, t_env: 87000 with prob: 0.9999837551319464
+agent help is true at t: 0, t_env: 87500 with prob: 0.9999836676333717
+agent help is true at t: 30, t_env: 87500 with prob: 0.9999835801348046
+agent help is true at t: 0, t_env: 88000 with prob: 0.9999834921362534
+agent help is true at t: 30, t_env: 88000 with prob: 0.9999834041377099
+agent help is true at t: 0, t_env: 88500 with prob: 0.9999833156391825
+agent help is true at t: 30, t_env: 88500 with prob: 0.999983227140663
+agent help is true at t: 0, t_env: 89000 with prob: 0.9999831381421598
+agent help is true at t: 30, t_env: 89000 with prob: 0.9999830491436644
+agent help is true at t: 0, t_env: 89500 with prob: 0.9999829596451856
+agent help is true at t: 30, t_env: 89500 with prob: 0.9999828701467147
+agent help is true at t: 0, t_env: 90000 with prob: 0.9999827801482605
+agent help is true at t: 30, t_env: 90000 with prob: 0.9999826901498143
+agent help is true at t: 0, t_env: 90500 with prob: 0.9999825996513849
+agent help is true at t: 30, t_env: 90500 with prob: 0.9999825091529637
+agent help is true at t: 0, t_env: 91000 with prob: 0.9999824181545595
+agent help is true at t: 30, t_env: 91000 with prob: 0.9999823271561635
+agent help is true at t: 0, t_env: 91500 with prob: 0.9999822356577848
+agent help is true at t: 30, t_env: 91500 with prob: 0.9999821441594144
+agent help is true at t: 0, t_env: 92000 with prob: 0.9999820521610614
+agent help is true at t: 30, t_env: 92000 with prob: 0.9999819601627169
+agent help is true at t: 0, t_env: 92500 with prob: 0.9999818676643898
+agent help is true at t: 30, t_env: 92500 with prob: 0.9999817751660712
+agent help is true at t: 0, t_env: 93000 with prob: 0.9999816821677704
+agent help is true at t: 30, t_env: 93000 with prob: 0.9999815891694782
+agent help is true at t: 0, t_env: 93500 with prob: 0.999981495671204
+agent help is true at t: 30, t_env: 93500 with prob: 0.9999814021729385
+agent help is true at t: 0, t_env: 94000 with prob: 0.9999813081746911
+agent help is true at t: 30, t_env: 94000 with prob: 0.9999812141764526
+agent help is true at t: 0, t_env: 94500 with prob: 0.9999811196782323
+agent help is true at t: 30, t_env: 94500 with prob: 0.9999810251800211
+agent help is true at t: 0, t_env: 95000 with prob: 0.9999809301818281
+agent help is true at t: 30, t_env: 95000 with prob: 0.9999808351836442
+agent help is true at t: 0, t_env: 95500 with prob: 0.999980739685479
+agent help is true at t: 30, t_env: 95500 with prob: 0.9999806441873228
+agent help is true at t: 0, t_env: 96000 with prob: 0.9999805481891856
+agent help is true at t: 30, t_env: 96000 with prob: 0.9999804521910576
+agent help is true at t: 0, t_env: 96500 with prob: 0.9999803556929486
+agent help is true at t: 30, t_env: 96500 with prob: 0.999980259194849
+agent help is true at t: 0, t_env: 97000 with prob: 0.9999801621967687
+agent help is true at t: 30, t_env: 97000 with prob: 0.9999800651986976
+agent help is true at t: 0, t_env: 97500 with prob: 0.999979967700646
+agent help is true at t: 30, t_env: 97500 with prob: 0.9999798702026038
+agent help is true at t: 0, t_env: 98000 with prob: 0.9999797722045813
+agent help is true at t: 30, t_env: 98000 with prob: 0.9999796742065684
+agent help is true at t: 0, t_env: 98500 with prob: 0.9999795757085753
+agent help is true at t: 30, t_env: 98500 with prob: 0.999979477210592
+agent help is true at t: 0, t_env: 99000 with prob: 0.9999793782126286
+agent help is true at t: 30, t_env: 99000 with prob: 0.9999792792146751
+agent help is true at t: 0, t_env: 99500 with prob: 0.9999791797167418
+agent help is true at t: 30, t_env: 99500 with prob: 0.9999790802188183
+[INFO 01:22:14] my_main Recent Stats | t_env:     100000 | Episode:     2000
+advantage_mean:           -0.0135	agent_0_return_mean:       0.0030	agent_0_return_std:        0.0423	agent_1_return_mean:       0.0010
+agent_1_return_std:        0.0141	agent_2_return_mean:       0.0010	agent_2_return_std:        0.0141	agent_3_return_mean:       0.0010
+agent_3_return_std:        0.0141	agent_grad_norm:           0.0490	critic_grad_norm:          0.2313	critic_loss:               0.0047
+ep_length_mean:           50.0000	pg_loss:                   1.6229	pi_max:                    0.7847	q_taken_mean:              0.3098
+target_mean:               0.2963	td_error_abs:              0.0509	test_agent_0_return_mean:  0.0050	test_agent_0_return_std:   0.0497
+test_agent_1_return_mean:  0.0100	test_agent_1_return_std:   0.0700	test_agent_2_return_mean:  0.0100	test_agent_2_return_std:   0.0700
+test_agent_3_return_mean:  0.0050	test_agent_3_return_std:   0.0497	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0300
+test_total_return_std:     0.1587	total_return_mean:         0.0060	total_return_std:          0.0680	
+agent help is true at t: 0, t_env: 100000 with prob: 0.9999789802209154
+agent help is true at t: 30, t_env: 100000 with prob: 0.9999788802230224
+[INFO 01:22:14] my_main t_env: 100500 / 3000000
+[INFO 01:22:14] my_main Estimated time left: 38 minutes, 48 seconds. Time passed: 1 minutes, 19 seconds
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999787797251499
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999786792272876
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999785787294353
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999784782315931
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999783777337611
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999782772359391
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999781767381273
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999780762403255
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999779757425339
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999778752447523
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999777747469809
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999776742492196
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999775737514683
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999774732537272
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999773727559962
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999772722582753
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999771717605644
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999770712628637
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999769707651731
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999768702674926
+[INFO 01:22:16] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-15 01_20_53.610102
+agent help is true at t: 0, t_env: 100500 with prob: 0.9999767697698222
+agent help is true at t: 30, t_env: 100500 with prob: 0.9999766692721619
+agent help is true at t: 0, t_env: 101000 with prob: 0.9999765682745234
+agent help is true at t: 30, t_env: 101000 with prob: 0.999976467276895
+agent help is true at t: 0, t_env: 101500 with prob: 0.9999763657792887
+agent help is true at t: 30, t_env: 101500 with prob: 0.9999762642816927
+agent help is true at t: 0, t_env: 102000 with prob: 0.999976162284119
+agent help is true at t: 30, t_env: 102000 with prob: 0.9999760602865557
+agent help is true at t: 0, t_env: 102500 with prob: 0.9999759577890148
+agent help is true at t: 30, t_env: 102500 with prob: 0.9999758552914845
+agent help is true at t: 0, t_env: 103000 with prob: 0.9999757522939767
+agent help is true at t: 30, t_env: 103000 with prob: 0.9999756492964796
+agent help is true at t: 0, t_env: 103500 with prob: 0.9999755457990053
+agent help is true at t: 30, t_env: 103500 with prob: 0.9999754423015416
+agent help is true at t: 0, t_env: 104000 with prob: 0.9999753383041009
+agent help is true at t: 30, t_env: 104000 with prob: 0.9999752343066711
+agent help is true at t: 0, t_env: 104500 with prob: 0.9999751298092646
+agent help is true at t: 30, t_env: 104500 with prob: 0.999975025311869
+agent help is true at t: 0, t_env: 105000 with prob: 0.9999749203144969
+agent help is true at t: 30, t_env: 105000 with prob: 0.9999748153171357
+agent help is true at t: 0, t_env: 105500 with prob: 0.9999747098197983
+agent help is true at t: 30, t_env: 105500 with prob: 0.999974604322472
+agent help is true at t: 0, t_env: 106000 with prob: 0.9999744983251696
+agent help is true at t: 30, t_env: 106000 with prob: 0.9999743923278784
+agent help is true at t: 0, t_env: 106500 with prob: 0.9999742858306113
+agent help is true at t: 30, t_env: 106500 with prob: 0.9999741793333555
+agent help is true at t: 0, t_env: 107000 with prob: 0.999974072336124
+agent help is true at t: 30, t_env: 107000 with prob: 0.9999739653389039
+agent help is true at t: 0, t_env: 107500 with prob: 0.9999738578417084
+agent help is true at t: 30, t_env: 107500 with prob: 0.9999737503445245
+agent help is true at t: 0, t_env: 108000 with prob: 0.9999736423473653
+agent help is true at t: 30, t_env: 108000 with prob: 0.9999735343502177
+agent help is true at t: 0, t_env: 108500 with prob: 0.9999734258530951
+agent help is true at t: 30, t_env: 108500 with prob: 0.9999733173559843
+agent help is true at t: 0, t_env: 109000 with prob: 0.9999732083588987
+agent help is true at t: 30, t_env: 109000 with prob: 0.999973099361825
+agent help is true at t: 0, t_env: 109500 with prob: 0.9999729898647767
+agent help is true at t: 30, t_env: 109500 with prob: 0.9999728803677403
+[DEBUG 01:22:23] pymarl Stopping Heartbeat
+[WARNING 01:22:23] pymarl Aborted after 0:01:30!
+Traceback (most recent call last):
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 135, in <module>
+    ex.run_commandline(params)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/experiment.py", line 313, in run_commandline
+    return self.run(
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/experiment.py", line 277, in run
+    run()
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 44, in my_main
+    run(_run, config, _log)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 69, in run
+    run_sequential(args=args, logger=logger)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 242, in run_sequential
+    learner.train(
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/learners/ppo_learner.py", line 119, in train
+    advantages, critic_train_stats = self.train_critic_sequential(
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/learners/ppo_learner.py", line 241, in train_critic_sequential
+    loss.backward()
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

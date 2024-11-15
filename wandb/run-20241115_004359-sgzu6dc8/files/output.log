@@ -1,0 +1,16 @@
+[INFO 00:43:59] my_main *******************
+[INFO 00:43:59] my_main WANDB RUN ID:
+[INFO 00:43:59] my_main sgzu6dc8
+[INFO 00:43:59] my_main *******************
+[DEBUG 00:43:59] pymarl Stopping Heartbeat
+[ERROR 00:43:59] pymarl Failed after 0:00:01!
+Traceback (most recent calls WITHOUT Sacred internals):
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 44, in my_main
+    run(_run, config, _log)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 69, in run
+    run_sequential(args=args, logger=logger)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 105, in run_sequential
+    runner = r_REGISTRY[args.runner](
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/runners/parallel_runner.py", line 22, in __init__
+    self.help_prob = self.args.help_prob
+AttributeError: 'types.SimpleNamespace' object has no attribute 'help_prob'

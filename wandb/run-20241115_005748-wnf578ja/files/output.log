@@ -1,0 +1,925 @@
+[INFO 00:57:49] my_main *******************
+[INFO 00:57:49] my_main WANDB RUN ID:
+[INFO 00:57:49] my_main wnf578ja
+[INFO 00:57:49] my_main *******************
+[INFO 00:57:49] my_main Beginning training for 3000000 timesteps
+at t_env: 0, k:30
+the agent help is switched to true at 1.0!
+/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/controllers/basic_controller.py:20: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = th.load(self.path)
+at t_env: 0, k:30
+the agent help is switched to true at 1.0!
+[INFO 00:57:50] my_main t_env: 500 / 3000000
+[INFO 00:57:50] my_main Estimated time left: 21 seconds. Time passed: 0 seconds
+at t_env: 500, k:30
+the agent help is switched to true at 0.9995001249791693!
+at t_env: 500, k:30
+the agent help is switched to true at 0.999000499833375!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9985011244377109!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9980019986673331!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9975031223974602!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9970044955033731!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9965061178604151!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9960079893439917!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9955101098295708!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9950124791926825!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9945150973089193!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9940179640539355!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9935210793034479!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9930244429332353!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9925280548191386!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9920319148370609!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9915360228629669!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9910403787728839!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9905449824429007!
+at t_env: 500, k:30
+the agent help is switched to true at 0.9900498337491683!
+[INFO 00:57:51] my_main Saving models to results/models/mappo_seed42_rware_rware-tiny-4ag-v2_2024-11-15 00_57_48.131939
+at t_env: 500, k:30
+the agent help is switched to true at 0.9895549325678995!
+at t_env: 500, k:30
+the agent help is switched to true at 0.989060278775369!
+at t_env: 1000, k:30
+the agent help is switched to true at 0.9880717128619309!
+at t_env: 1000, k:30
+the agent help is switched to true at 0.9870841350202879!
+at t_env: 1500, k:30
+the agent help is switched to true at 0.9856046187323827!
+at t_env: 1500, k:30
+the agent help is switched to true at 0.9841273200552855!
+at t_env: 2000, k:30
+the agent help is switched to true at 0.9821610323583011!
+at t_env: 2000, k:30
+the agent help is switched to true at 0.9801986733067557!
+at t_env: 2500, k:30
+the agent help is switched to true at 0.9777512371933367!
+at t_env: 2500, k:30
+the agent help is switched to true at 0.975309912028333!
+at t_env: 3000, k:30
+the agent help is switched to true at 0.9723883668012472!
+at t_env: 3000, k:30
+the agent help is switched to true at 0.9694755730760263!
+at t_env: 3500, k:30
+the agent help is switched to true at 0.9660883396864919!
+at t_env: 3500, k:30
+the agent help is switched to true at 0.9627129408911999!
+at t_env: 4000, k:30
+the agent help is switched to true at 0.9588697805724848!
+at t_env: 4000, k:30
+the agent help is switched to true at 0.9550419621907149!
+at t_env: 4500, k:30
+the agent help is switched to true at 0.9507539286723272!
+at t_env: 4500, k:30
+the agent help is switched to true at 0.9464851479534842!
+at t_env: 5000, k:30
+the agent help is switched to true at 0.9417645335842489!
+at t_env: 5000, k:30
+the agent help is switched to true at 0.9370674633774037!
+at t_env: 5500, k:30
+the agent help is switched to true at 0.9319277395258005!
+at t_env: 5500, k:30
+the agent help is switched to true at 0.9268162065593826!
+at t_env: 6000, k:30
+the agent help is switched to true at 0.921271958696349!
+at t_env: 6000, k:30
+the agent help is switched to true at 0.9157608767233261!
+at t_env: 6500, k:30
+the agent help is switched to true at 0.9098277346260304!
+at t_env: 6500, k:30
+the agent help is switched to true at 0.9039330328858645!
+at t_env: 7000, k:30
+the agent help is switched to true at 0.8976275964304352!
+at t_env: 7000, k:30
+the agent help is switched to true at 0.8913661439068317!
+at t_env: 7500, k:30
+at t_env: 7500, k:30
+the agent help is switched to true at 0.8780954309205616!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 8000, k:30
+at t_env: 8000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 8500, k:30
+the agent help is switched to true at 0.8568434921420971!
+at t_env: 8500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 9000, k:30
+the agent help is switched to true at 0.8419791731685002!
+at t_env: 9000, k:30
+the agent help is switched to true at 0.8344353586957899!
+at t_env: 9500, k:30
+the agent help is switched to true at 0.8265457577290566!
+at t_env: 9500, k:30
+the agent help is switched to true at 0.8187307530779822!
+at t_env: 10000, k:30
+the agent help is switched to true at 0.8105842459701874!
+at t_env: 10000, k:30
+the agent help is switched to true at 0.8025187979624788!
+at t_env: 10500, k:30
+at t_env: 10500, k:30
+the agent help is switched to true at 0.7858416263883459!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 11000, k:30
+the agent help is switched to true at 0.7772447380689466!
+at t_env: 11000, k:30
+the agent help is switched to true at 0.7687418973111607!
+at t_env: 11500, k:30
+the agent help is switched to true at 0.7599520042489232!
+at t_env: 11500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 12000, k:30
+the agent help is switched to true at 0.7423013397477748!
+at t_env: 12000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 12500, k:30
+at t_env: 12500, k:30
+the agent help is switched to true at 0.7153380863525604!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 13000, k:30
+the agent help is switched to true at 0.7060988762143848!
+at t_env: 13000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 13500, k:30
+at t_env: 13500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 14000, k:30
+at t_env: 14000, k:30
+the agent help is switched to true at 0.6596802704843895!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 14500, k:30
+the agent help is switched to true at 0.6501839214760415!
+at t_env: 14500, k:30
+the agent help is switched to true at 0.6408242760323192!
+at t_env: 15000, k:30
+at t_env: 15000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 15500, k:30
+the agent help is switched to true at 0.6123201575528621!
+at t_env: 15500, k:30
+the agent help is switched to true at 0.6029023715038424!
+at t_env: 16000, k:30
+the agent help is switched to true at 0.5933326951230523!
+at t_env: 16000, k:30
+the agent help is switched to true at 0.583914915152629!
+at t_env: 16500, k:30
+at t_env: 16500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 17000, k:30
+at t_env: 17000, k:30
+the agent help is switched to true at 0.5460744266397097!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 17500, k:30
+the agent help is switched to true at 0.5366012561770338!
+at t_env: 17500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 18000, k:30
+at t_env: 18000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 18500, k:30
+at t_env: 18500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 19000, k:30
+at t_env: 19000, k:30
+the agent help is switched to true at 0.4718944222928423!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 19500, k:30
+the agent help is switched to true at 0.4627816196440614!
+at t_env: 19500, k:30
+the agent help is switched to true at 0.4538447952823561!
+at t_env: 20000, k:30
+the agent help is switched to true at 0.4448580662229414!
+at t_env: 20000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 20500, k:30
+the agent help is switched to true at 0.42720127790071566!
+at t_env: 20500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 21000, k:30
+at t_env: 21000, k:30
+the agent help is switched to true at 0.40131846091054213!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 21500, k:30
+at t_env: 21500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 22000, k:30
+the agent help is switched to true at 0.37606247217196537!
+at t_env: 22000, k:30
+the agent help is switched to true at 0.36787944117144256!
+at t_env: 22500, k:30
+the agent help is switched to true at 0.35969457874337113!
+at t_env: 22500, k:30
+the agent help is switched to true at 0.35169181937806704!
+at t_env: 23000, k:30
+at t_env: 23000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 23500, k:30
+at t_env: 23500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 24000, k:30
+at t_env: 24000, k:30
+the agent help is switched to true at 0.30544058614135794!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 24500, k:30
+at t_env: 24500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 25000, k:30
+at t_env: 25000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 25500, k:30
+at t_env: 25500, k:30
+the agent help is switched to true at 0.2628951488158118!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 26000, k:30
+the agent help is switched to true at 0.2561479683791595!
+at t_env: 26000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 26500, k:30
+at t_env: 26500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 27000, k:30
+the agent help is switched to true at 0.23038579631478842!
+at t_env: 27000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 27500, k:30
+at t_env: 27500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 28000, k:30
+the agent help is switched to true at 0.20638746062626054!
+at t_env: 28000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 28500, k:30
+at t_env: 28500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 29000, k:30
+at t_env: 29000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 29500, k:30
+at t_env: 29500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 30000, k:30
+at t_env: 30000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 30500, k:30
+at t_env: 30500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 31000, k:30
+at t_env: 31000, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 31500, k:30
+at t_env: 31500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 32000, k:30
+the agent help is switched to true at 0.2!
+at t_env: 32000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 32500, k:30
+at t_env: 32500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 33000, k:30
+the agent help is switched to true at 0.2!
+at t_env: 33000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 33500, k:30
+at t_env: 33500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 34000, k:30
+at t_env: 34000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 34500, k:30
+at t_env: 34500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 35000, k:30
+at t_env: 35000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 35500, k:30
+at t_env: 35500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 36000, k:30
+the agent help is switched to true at 0.2!
+at t_env: 36000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 36500, k:30
+at t_env: 36500, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 37000, k:30
+the agent help is switched to true at 0.2!
+at t_env: 37000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 37500, k:30
+at t_env: 37500, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 38000, k:30
+at t_env: 38000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 38500, k:30
+at t_env: 38500, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 39000, k:30
+at t_env: 39000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 39500, k:30
+at t_env: 39500, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 40000, k:30
+at t_env: 40000, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 40500, k:30
+at t_env: 40500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 41000, k:30
+at t_env: 41000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 41500, k:30
+at t_env: 41500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 42000, k:30
+at t_env: 42000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 42500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 42500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 43000, k:30
+at t_env: 43000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 43500, k:30
+at t_env: 43500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 44000, k:30
+at t_env: 44000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 44500, k:30
+at t_env: 44500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 45000, k:30
+at t_env: 45000, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 45500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 45500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 46000, k:30
+at t_env: 46000, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 46500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 46500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 47000, k:30
+the agent help is switched to true at 0.2!
+at t_env: 47000, k:30
+the agent help is switched to true at 0.2!
+at t_env: 47500, k:30
+at t_env: 47500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 48000, k:30
+at t_env: 48000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 48500, k:30
+at t_env: 48500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 49000, k:30
+at t_env: 49000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 49500, k:30
+at t_env: 49500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+[INFO 00:58:26] my_main Recent Stats | t_env:      50000 | Episode:     1000
+advantage_mean:            0.0352	agent_0_return_mean:       0.0010	agent_0_return_std:        0.0141	agent_1_return_mean:       0.0020
+agent_1_return_std:        0.0199	agent_2_return_mean:       0.0010	agent_2_return_std:        0.0141	agent_3_return_mean:       0.0040
+agent_3_return_std:        0.0481	agent_grad_norm:           0.0591	critic_grad_norm:          0.4127	critic_loss:               5.0186
+ep_length_mean:           50.0000	pg_loss:                   0.6036	pi_max:                    0.4935	q_taken_mean:              0.2458
+target_mean:               0.2810	td_error_abs:              0.1060	test_agent_0_return_mean:  0.0000	test_agent_0_return_std:   0.0000
+test_agent_1_return_mean:  0.0000	test_agent_1_return_std:   0.0000	test_agent_2_return_mean:  0.0000	test_agent_2_return_std:   0.0000
+test_agent_3_return_mean:  0.0100	test_agent_3_return_std:   0.0995	test_ep_length_mean:      50.0000	test_total_return_mean:    0.0100
+test_total_return_std:     0.0995	total_return_mean:         0.0080	total_return_std:          0.0761	
+at t_env: 50000, k:30
+at t_env: 50000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+[INFO 00:58:26] my_main t_env: 50500 / 3000000
+[INFO 00:58:26] my_main Estimated time left: 36 minutes, 10 seconds. Time passed: 37 seconds
+at t_env: 50500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+at t_env: 50500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 51000, k:30
+the agent help is switched to true at 0.2!
+at t_env: 51000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 51500, k:30
+at t_env: 51500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 52000, k:30
+at t_env: 52000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 52500, k:30
+at t_env: 52500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 53000, k:30
+at t_env: 53000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 53500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 53500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 54000, k:30
+at t_env: 54000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 54500, k:30
+at t_env: 54500, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 55000, k:30
+at t_env: 55000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 55500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 55500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 56000, k:30
+at t_env: 56000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 56500, k:30
+at t_env: 56500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 57000, k:30
+at t_env: 57000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 57500, k:30
+at t_env: 57500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 58000, k:30
+at t_env: 58000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 58500, k:30
+at t_env: 58500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 59000, k:30
+at t_env: 59000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 59500, k:30
+at t_env: 59500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 60000, k:30
+at t_env: 60000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 60500, k:30
+at t_env: 60500, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 61000, k:30
+at t_env: 61000, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 61500, k:30
+at t_env: 61500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 62000, k:30
+at t_env: 62000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 62500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 62500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 63000, k:30
+at t_env: 63000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 63500, k:30
+the agent help is switched to true at 0.2!
+at t_env: 63500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 64000, k:30
+at t_env: 64000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 64500, k:30
+at t_env: 64500, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 65000, k:30
+the agent help is switched to true at 0.2!
+at t_env: 65000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 65500, k:30
+at t_env: 65500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 66000, k:30
+at t_env: 66000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 66500, k:30
+at t_env: 66500, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 67000, k:30
+at t_env: 67000, k:30
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 67500, k:30
+at t_env: 67500, k:30
+the agent help is switched to true at 0.2!
+SKIPPED
+SKIPPED
+SKIPPED
+SKIPPED
+at t_env: 68000, k:30
+the agent help is switched to true at 0.2!
+at t_env: 68000, k:30
+SKIPPED
+[DEBUG 00:58:41] pymarl Stopping Heartbeat
+[WARNING 00:58:41] pymarl Aborted after 0:00:53!
+Traceback (most recent call last):
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 135, in <module>
+    ex.run_commandline(params)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/experiment.py", line 313, in run_commandline
+    return self.run(
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/experiment.py", line 277, in run
+    run()
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/run.py", line 238, in __call__
+    self.result = self.main_function(*args)
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/sacred/config/captured_function.py", line 42, in captured_function
+    result = wrapped(*args, **kwargs)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/main.py", line 44, in my_main
+    run(_run, config, _log)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 69, in run
+    run_sequential(args=args, logger=logger)
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/run.py", line 242, in run_sequential
+    learner.train(
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/learners/ppo_learner.py", line 119, in train
+    advantages, critic_train_stats = self.train_critic_sequential(
+  File "/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/src/learners/ppo_learner.py", line 241, in train_critic_sequential
+    loss.backward()
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/_tensor.py", line 581, in backward
+    torch.autograd.backward(
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/autograd/__init__.py", line 347, in backward
+    _engine_run_backward(
+  File "/home/ubuntu/miniconda3/envs/epymarl/lib/python3.10/site-packages/torch/autograd/graph.py", line 825, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

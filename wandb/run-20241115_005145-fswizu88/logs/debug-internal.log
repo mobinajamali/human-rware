@@ -1,0 +1,16 @@
+{"time":"2024-11-15T00:51:45.11465443-07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-15T00:51:45.114685179-07:00","level":"INFO","msg":"created symlink","path":"/home/ubuntu/PERSONAL-DIR/UOA-NEW/final/human-rware/wandb/run-20241115_005145-fswizu88/logs/debug-core.log"}
+{"time":"2024-11-15T00:51:45.219317635-07:00","level":"INFO","msg":"created new stream","id":"fswizu88"}
+{"time":"2024-11-15T00:51:45.219358341-07:00","level":"INFO","msg":"stream: started","id":"fswizu88"}
+{"time":"2024-11-15T00:51:45.219449795-07:00","level":"INFO","msg":"sender: started","stream_id":"fswizu88"}
+{"time":"2024-11-15T00:51:45.219400797-07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"fswizu88"}}
+{"time":"2024-11-15T00:51:45.219396673-07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fswizu88"}}
+{"time":"2024-11-15T00:51:45.442739048-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-15T00:56:24.963521402-07:00","level":"INFO","msg":"stream: closing","id":"fswizu88"}
+{"time":"2024-11-15T00:56:24.963547819-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-15T00:56:24.963929744-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-15T00:56:26.986003426-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-15T00:56:27.159539044-07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"fswizu88"}}
+{"time":"2024-11-15T00:56:27.159622879-07:00","level":"INFO","msg":"sender: closed","stream_id":"fswizu88"}
+{"time":"2024-11-15T00:56:27.159597587-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"fswizu88"}}
+{"time":"2024-11-15T00:56:27.159716631-07:00","level":"INFO","msg":"stream: closed","id":"fswizu88"}
